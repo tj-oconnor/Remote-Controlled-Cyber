@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Docker Controller</title>
+    <link rel="stylesheet" href= {{ url_for('static', filename='style.css') }} />
+</head>
+<body>
+    <div class="content">
+        <h1> Docker Admin Panel </h1>
+        {% for image, state in container_states.items() %}
+            <div class="container-control">
+                <div class="container-name">
+                    {{ image }}
+                </div>
+                <form method="POST" class="container-action">
+                    <button type="submit" name="image_name" value="{{ image }}" class="container-{{ 'stop' if state else 'start' }}">
+                        {{ 'Stop' if state else 'Start' }}
+                    </button>
+                    <input type="hidden" name="action" value="{{ 'stop' if state else 'start' }}">
+                </form>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,3022 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           
+     00000000  _rRAMG                             
+     00000000  l__BASE                         
+     00000000  l__BSS                          
+     00000000  l__CABS                         
+     00000000  l__CODE_0                       
+     00000000  l__CRASH_HEADER                 
+     00000000  l__CRASH_SCRATCH                
+     00000000  l__DABS                         
+     00000000  l__EHL_TRAMPOLINE               
+     00000000  l__HEADER                       
+     00000000  l__HEADER_LCD                   
+     00000000  l__HEADER_SIO                   
+     00000000  l__HEADER_TIMER                 
+     00000000  l__HEAP                         
+     00000000  l__HRAM                         
+     00000000  l__LIT                          
+     00000000  s__CABS                         
+     00000000  s__CRASH_HEADER                 
+     00000000  s__CRASH_HEADER0                
+     00000000  s__CRASH_HEADER1                
+     00000000  s__CRASH_SCRATCH                
+     00000000  s__CRASH_SCRATCH2               
+     00000000  s__DABS                         
+     00000000  s__EHL_TRAMPOLINE               
+     00000000  s__EHL_TRAMPOLINE0              
+     00000000  s__HEADER                       
+     00000000  s__HEADER0                      
+     00000000  s__HEADER1                      
+     00000000  s__HEADER10                     
+     00000000  s__HEADER11                     
+     00000000  s__HEADER2                      
+     00000000  s__HEADER3                      
+     00000000  s__HEADER4                      
+     00000000  s__HEADER5                      
+     00000000  s__HEADER6                      
+     00000000  s__HEADER7                      
+     00000000  s__HEADER8                      
+     00000000  s__HEADER9                      
+     00000000  s__HEADER_LCD                   
+     00000000  s__HEADER_LCD0                  
+     00000000  s__HEADER_SIO                   
+     00000000  s__HEADER_SIO0                  
+     00000000  s__HEADER_TIMER                 
+     00000000  s__HEADER_TIMER0                
+     00000000  s__HEADERa                      
+     00000000  s__HEADERb                      
+     00000000  s__HEADERc                      
+     00000000  s__HEADERd                      
+     00000000  s__HEADERe                      
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  s__HEADERf                      
+     00000000  s__HRAM                         
+     00000000  s__HRAM12                       
+     00000001  ___bank_ACTOR                      actor
+     00000001  ___bank_VM_ACTOR                   vm_actor
+     00000001  ___bank_VM_SGB                     vm_sgb
+     00000001  ___bank_script_timer_0             script_timer_0
+     00000001  b_activate_actor                   actor
+     00000001  b_activate_actors_in_col           actor
+     00000001  b_activate_actors_in_row           actor
+     00000001  b_actor_at_tile                    actor
+     00000001  b_actor_get_frame_offset           actor
+     00000001  b_actor_in_front_of_player         actor
+     00000001  b_actor_overlapping_bb             actor
+     00000001  b_actor_overlapping_player         actor
+     00000001  b_actor_set_anim_idle              actor
+     00000001  b_actor_set_anim_moving            actor
+     00000001  b_actor_set_dir                    actor
+     00000001  b_actor_set_frame_offset           actor
+     00000001  b_actor_set_frames                 actor
+     00000001  b_actors_handle_player_collision   actor
+     00000001  b_actors_init                      actor
+     00000001  b_check_collision_in_direction     actor
+     00000001  b_deactivate_actor                 actor
+     00000001  b_parallax_init                    parallax
+     00000001  b_player_init                      actor
+     00000001  b_ui_draw_frame                    ui
+     00000001  b_ui_draw_text_buffer_char         ui
+     00000001  b_ui_init                          ui
+     00000001  b_ui_load_tiles                    ui
+     00000001  b_ui_run_menu                      ui
+     00000001  b_ui_run_modal                     ui
+     00000001  b_ui_set_start_tile                ui
+     00000001  b_vm_actor_activate                vm_actor
+     00000001  b_vm_actor_deactivate              vm_actor
+     00000001  b_vm_actor_emote                   vm_actor
+     00000001  b_vm_actor_get_angle               vm_actor
+     00000001  b_vm_actor_get_anim_frame          vm_actor
+     00000001  b_vm_actor_get_dir                 vm_actor
+     00000001  b_vm_actor_get_pos                 vm_actor
+     00000001  b_vm_actor_move_cancel             vm_actor
+     00000001  b_vm_actor_move_to                 vm_actor
+     00000001  b_vm_actor_replace_tile            vm_actor
+     00000001  b_vm_actor_set_anim                vm_actor
+     00000001  b_vm_actor_set_anim_frame          vm_actor
+     00000001  b_vm_actor_set_anim_set            vm_actor
+     00000001  b_vm_actor_set_anim_tick           vm_actor
+     00000001  b_vm_actor_set_bounds              vm_actor
+     00000001  b_vm_actor_set_dir                 vm_actor
+     00000001  b_vm_actor_set_flags               vm_actor
+     00000001  b_vm_actor_set_move_speed          vm_actor
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000001  b_vm_actor_set_pos                 vm_actor
+     00000001  b_vm_actor_set_spritesheet         vm_actor
+     00000001  b_vm_actor_set_spritesheet_by_re   vm_actor
+     00000001  b_vm_actor_terminate_update        vm_actor
+     00000001  l__GSFINAL                      
+     00000001  l__HEADER0                      
+     00000001  l__HEADER11                     
+     00000001  l__HEADER9                      
+     00000001  l__HEADERa                      
+     00000001  l__HEADERb                      
+     00000001  l__HEADERd                      
+     00000001  l__HEADERe                      
+     00000002  ___bank_VM_MAIN                    vm
+     00000002  ___bank_font_gbs_mono              font_gbs_mono
+     00000002  ___bank_sprite_player_handcursor   sprite_player_handcursor_til
+     00000002  b_do_load_palette                  data_manager
+     00000002  b_load_background                  data_manager
+     00000002  b_load_bkg_tileset                 data_manager
+     00000002  b_load_bounds                      data_manager
+     00000002  b_load_emote                       data_manager
+     00000002  b_load_init                        data_manager
+     00000002  b_load_player                      data_manager
+     00000002  b_load_scene                       data_manager
+     00000002  b_load_sprite                      data_manager
+     00000002  b_platform_init                    platform
+     00000002  b_platform_update                  platform
+     00000002  b_projectile_launch                projectiles
+     00000002  b_projectiles_init                 projectiles
+     00000002  b_script_detach_hthread            vm
+     00000002  b_script_execute                   vm
+     00000002  b_script_runner_init               vm
+     00000002  b_script_terminate                 vm
+     00000002  b_vm_call                          vm
+     00000002  b_vm_call_far                      vm
+     00000002  b_vm_get_indirect                  vm
+     00000002  b_vm_get_int16                     vm
+     00000002  b_vm_get_int8                      vm
+     00000002  b_vm_get_tlocal                    vm
+     00000002  b_vm_get_uint8                     vm
+     00000002  b_vm_idle                          vm
+     00000002  b_vm_if                            vm
+     00000002  b_vm_if_const                      vm
+     00000002  b_vm_init_rng                      vm
+     00000002  b_vm_invoke                        vm
+     00000002  b_vm_join                          vm
+     00000002  b_vm_jump                          vm
+     00000002  b_vm_lock                          vm
+     00000002  b_vm_loop                          vm
+     00000002  b_vm_memcpy                        vm
+     00000002  b_vm_memset                        vm
+     00000002  b_vm_poll_loaded                   vm
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000002  b_vm_pop                           vm
+     00000002  b_vm_push                          vm
+     00000002  b_vm_push_reference                vm
+     00000002  b_vm_push_value                    vm
+     00000002  b_vm_push_value_ind                vm
+     00000002  b_vm_raise                         vm
+     00000002  b_vm_rand                          vm
+     00000002  b_vm_reserve                       vm
+     00000002  b_vm_ret                           vm
+     00000002  b_vm_ret_far                       vm
+     00000002  b_vm_set                           vm
+     00000002  b_vm_set_const                     vm
+     00000002  b_vm_set_const_int16               vm
+     00000002  b_vm_set_const_int8                vm
+     00000002  b_vm_set_indirect                  vm
+     00000002  b_vm_set_int16                     vm
+     00000002  b_vm_set_int8                      vm
+     00000002  b_vm_set_uint8                     vm
+     00000002  b_vm_terminate                     vm
+     00000002  b_vm_test_terminate                vm
+     00000002  b_vm_unlock                        vm
+     00000002  b_wait_frames                      vm
+     00000002  l__HEADER5                      
+     00000002  l__HEADERc                      
+     00000002  l__HEADERf                      
+     00000003  ___bank_VM_GAMEBOY                 vm_gameboy
+     00000003  ___bank_VM_GBPRINTER               vm_gbprinter
+     00000003  ___bank_VM_UI                      vm_ui
+     00000003  ___bank_bg_bedroom_tileset         bg_bedroom_tileset
+     00000003  ___bank_bg_keyboard_tileset        bg_keyboard_tileset
+     00000003  ___bank_bg_titlescreen_tileset     bg_titlescreen_tileset
+     00000003  b_adventure_init                   adventure
+     00000003  b_adventure_update                 adventure
+     00000003  b_input_init                       input
+     00000003  b_scroll_init                      scroll
+     00000003  b_scroll_repaint                   scroll
+     00000003  b_scroll_reset                     scroll
+     00000003  b_scroll_update                    scroll
+     00000003  b_shmup_init                       shmup
+     00000003  b_shmup_update                     shmup
+     00000003  b_topdown_init                     topdown
+     00000003  b_topdown_update                   topdown
+     00000003  b_vm_choice                        vm_ui
+     00000003  b_vm_context_prepare               vm_gameboy
+     00000003  b_vm_display_text                  vm_ui
+     00000003  b_vm_fade                          vm_gameboy
+     00000003  b_vm_get_tile_xy                   vm_gameboy
+     00000003  b_vm_input_attach                  vm_gameboy
+     00000003  b_vm_input_detach                  vm_gameboy
+     00000003  b_vm_input_get                     vm_gameboy
+     00000003  b_vm_input_wait                    vm_gameboy
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000003  b_vm_load_tiles                    vm_gameboy
+     00000003  b_vm_load_tileset                  vm_gameboy
+     00000003  b_vm_overlay_clear                 vm_ui
+     00000003  b_vm_overlay_move_to               vm_ui
+     00000003  b_vm_overlay_scroll                vm_ui
+     00000003  b_vm_overlay_set_map               vm_ui
+     00000003  b_vm_overlay_set_scroll            vm_ui
+     00000003  b_vm_overlay_set_submap            vm_ui
+     00000003  b_vm_overlay_set_submap_ex         vm_ui
+     00000003  b_vm_overlay_setpos                vm_ui
+     00000003  b_vm_overlay_show                  vm_ui
+     00000003  b_vm_overlay_wait                  vm_ui
+     00000003  b_vm_poll                          vm_gameboy
+     00000003  b_vm_print_detect                  vm_gbprinter
+     00000003  b_vm_print_overlay                 vm_gbprinter
+     00000003  b_vm_replace_tile                  vm_gameboy
+     00000003  b_vm_replace_tile_xy               vm_gameboy
+     00000003  b_vm_rumble                        vm_gameboy
+     00000003  b_vm_set_font                      vm_ui
+     00000003  b_vm_set_sprite_mode               vm_gameboy
+     00000003  b_vm_set_sprites_visible           vm_gameboy
+     00000003  b_vm_set_text_sound                vm_ui
+     00000003  b_vm_switch_text_layer             vm_ui
+     00000003  b_vm_timer_prepare                 vm_gameboy
+     00000003  b_vm_timer_reset                   vm_gameboy
+     00000003  b_vm_timer_set                     vm_gameboy
+     00000003  b_vm_timer_stop                    vm_gameboy
+     00000003  l__HEADER8                      
+     00000003  l__HEADER_LCD0                  
+     00000003  l__HRAM12                       
+     00000004  ___bank_VM_CAMERA                  vm_camera
+     00000004  ___bank_VM_MATH                    vm_math
+     00000004  ___bank_VM_MUSIC                   vm_music
+     00000004  ___bank_VM_PALETTE                 vm_palette
+     00000004  ___bank_VM_SIO                     vm_sio
+     00000004  ___bank_actor_0_interact           actor_0_interact
+     00000004  ___bank_actor_1_interact           actor_1_interact
+     00000004  ___bank_bg_bedroom_tilemap         bg_bedroom_tilemap
+     00000004  ___bank_bg_keyboard_tilemap        bg_keyboard_tilemap
+     00000004  ___bank_bg_livingroom_tilemap      bg_livingroom_tilemap
+     00000004  ___bank_bg_livingroom_tileset      bg_livingroom_tileset
+     00000004  ___bank_bg_logo_tilemap            bg_logo_tilemap
+     00000004  ___bank_bg_logo_tileset            bg_logo_tileset
+     00000004  ___bank_bg_titlescreen_tilemap     bg_titlescreen_tilemap
+     00000004  ___bank_scene_bedroom_collisions   scene_bedroom_collisions
+     00000004  ___bank_scene_keyboard_actors      scene_keyboard_actors
+     00000004  ___bank_scene_keyboard_collision   scene_keyboard_collisions
+     00000004  ___bank_scene_living_room_collis   scene_living_room_collisions
+     00000004  ___bank_scene_logo_collisions      scene_logo_collisions
+     00000004  ___bank_scene_title_collisions     scene_title_collisions
+     00000004  __start_save                    
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000004  b___HandleCrash_banked             
+     00000004  b_camera_shake_frames              vm_camera
+     00000004  b_core_reset                       core
+     00000004  b_core_run                         core
+     00000004  b_data_clear                       load_save
+     00000004  b_data_init                        load_save
+     00000004  b_data_load                        load_save
+     00000004  b_data_peek                        load_save
+     00000004  b_data_save                        load_save
+     00000004  b_fade_applypalettechange          fade_manager
+     00000004  b_fade_in                          fade_manager
+     00000004  b_fade_in_modal                    fade_manager
+     00000004  b_fade_init                        fade_manager
+     00000004  b_fade_out                         fade_manager
+     00000004  b_fade_out_modal                   fade_manager
+     00000004  b_fade_setspeed                    fade_manager
+     00000004  b_fade_update                      fade_manager
+     00000004  b_gbprinter_detect                 gbprinter
+     00000004  b_gbprinter_print_overlay          gbprinter
+     00000004  b_itoa_fmt                         vm_ui_a
+     00000004  b_pointnclick_init                 pointnclick
+     00000004  b_pointnclick_update               pointnclick
+     00000004  b_set_sgb_border                   sgb_border
+     00000004  b_trigger_activate_at              trigger
+     00000004  b_trigger_activate_at_intersecti   trigger
+     00000004  b_trigger_at_intersection          trigger
+     00000004  b_trigger_at_tile                  trigger
+     00000004  b_trigger_interact                 trigger
+     00000004  b_trigger_reset                    trigger
+     00000004  b_vm_camera_move_to                vm_camera
+     00000004  b_vm_camera_set_pos                vm_camera
+     00000004  b_vm_cos_scale                     vm_math
+     00000004  b_vm_load_palette                  vm_palette
+     00000004  b_vm_music_mute                    vm_music
+     00000004  b_vm_music_play                    vm_music
+     00000004  b_vm_music_routine                 vm_music
+     00000004  b_vm_music_setpos                  vm_music
+     00000004  b_vm_music_stop                    vm_music
+     00000004  b_vm_sfx_play                      vm_music
+     00000004  b_vm_sin_scale                     vm_math
+     00000004  b_vm_sio_exchange                  vm_sio
+     00000004  b_vm_sio_set_mode                  vm_sio
+     00000004  b_vm_sound_mastervol               vm_music
+     00000004  l__CRASH_HEADER1                
+     00000004  l__HEADER_SIO0                  
+     00000004  l__HEADER_TIMER0                
+     00000005  ___bank_VM_LOAD_SAVE               vm_load_save
+     00000005  ___bank_VM_PROJECTILE              vm_projectiles
+     00000005  ___bank_VM_RTC                     vm_rtc
+     00000005  ___bank_VM_SCENE                   vm_scene
+     00000005  ___bank_actor_1_update             actor_1_update
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000005  ___bank_actor_2_interact           actor_2_interact
+     00000005  ___bank_actor_3_interact           actor_3_interact
+     00000005  ___bank_bg_bedroom                 bg_bedroom
+     00000005  ___bank_bg_keyboard                bg_keyboard
+     00000005  ___bank_bg_livingroom              bg_livingroom
+     00000005  ___bank_bg_logo                    bg_logo
+     00000005  ___bank_bg_titlescreen             bg_titlescreen
+     00000005  ___bank_bootstrap_script           
+     00000005  ___bank_cursor_image               cursor_image
+     00000005  ___bank_frame_image                frame_image
+     00000005  ___bank_palette_0                  palette_0
+     00000005  ___bank_palette_1                  palette_1
+     00000005  ___bank_scene_bedroom              scene_bedroom
+     00000005  ___bank_scene_bedroom_actors       scene_bedroom_actors
+     00000005  ___bank_scene_bedroom_init         scene_bedroom_init
+     00000005  ___bank_scene_bedroom_sprites      scene_bedroom_sprites
+     00000005  ___bank_scene_bedroom_triggers     scene_bedroom_triggers
+     00000005  ___bank_scene_keyboard             scene_keyboard
+     00000005  ___bank_scene_keyboard_init        scene_keyboard_init
+     00000005  ___bank_scene_keyboard_triggers    scene_keyboard_triggers
+     00000005  ___bank_scene_living_room          scene_living_room
+     00000005  ___bank_scene_living_room_actors   scene_living_room_actors
+     00000005  ___bank_scene_living_room_init     scene_living_room_init
+     00000005  ___bank_scene_living_room_sprite   scene_living_room_sprites
+     00000005  ___bank_scene_living_room_trigge   scene_living_room_triggers
+     00000005  ___bank_scene_logo                 scene_logo
+     00000005  ___bank_scene_logo_init            scene_logo_init
+     00000005  ___bank_scene_title                scene_title
+     00000005  ___bank_scene_title_init           scene_title_init
+     00000005  ___bank_script_engine_init         
+     00000005  ___bank_script_input_0             script_input_0
+     00000005  ___bank_script_input_1             script_input_1
+     00000005  ___bank_script_input_2             script_input_2
+     00000005  ___bank_script_row1alphabet        script_row1alphabet
+     00000005  ___bank_script_row2alphabet        script_row2alphabet
+     00000005  ___bank_script_row3alphabet        script_row3alphabet
+     00000005  ___bank_script_row4alphabet        script_row4alphabet
+     00000005  ___bank_sprite_a                   sprite_a
+     00000005  ___bank_sprite_a_tileset           sprite_a_tileset
+     00000005  ___bank_sprite_b                   sprite_b
+     00000005  ___bank_sprite_b_tileset           sprite_b_tileset
+     00000005  ___bank_sprite_c                   sprite_c
+     00000005  ___bank_sprite_c_tileset           sprite_c_tileset
+     00000005  ___bank_sprite_computer            sprite_computer
+     00000005  ___bank_sprite_computer_tileset    sprite_computer_tileset
+     00000005  ___bank_sprite_d                   sprite_d
+     00000005  ___bank_sprite_d_tileset           sprite_d_tileset
+     00000005  ___bank_sprite_dad                 sprite_dad
+     00000005  ___bank_sprite_dad_tileset         sprite_dad_tileset
+     00000005  ___bank_sprite_e                   sprite_e
+     00000005  ___bank_sprite_e_tileset           sprite_e_tileset
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000005  ___bank_sprite_f                   sprite_f
+     00000005  ___bank_sprite_f_tileset           sprite_f_tileset
+     00000005  ___bank_sprite_g                   sprite_g
+     00000005  ___bank_sprite_g_tileset           sprite_g_tileset
+     00000005  ___bank_sprite_h                   sprite_h
+     00000005  ___bank_sprite_h_tileset           sprite_h_tileset
+     00000005  ___bank_sprite_i                   sprite_i
+     00000005  ___bank_sprite_i_tileset           sprite_i_tileset
+     00000005  ___bank_sprite_invisibleactor      sprite_invisibleactor
+     00000005  ___bank_sprite_invisibleactor_ti   sprite_invisibleactor_tilese
+     00000005  ___bank_sprite_j                   sprite_j
+     00000005  ___bank_sprite_j_tileset           sprite_j_tileset
+     00000005  ___bank_sprite_k                   sprite_k
+     00000005  ___bank_sprite_k_tileset           sprite_k_tileset
+     00000005  ___bank_sprite_l                   sprite_l
+     00000005  ___bank_sprite_l_tileset           sprite_l_tileset
+     00000005  ___bank_sprite_m                   sprite_m
+     00000005  ___bank_sprite_m_tileset           sprite_m_tileset
+     00000005  ___bank_sprite_mom                 sprite_mom
+     00000005  ___bank_sprite_mom_tileset         sprite_mom_tileset
+     00000005  ___bank_sprite_n                   sprite_n
+     00000005  ___bank_sprite_n_tileset           sprite_n_tileset
+     00000005  ___bank_sprite_o                   sprite_o
+     00000005  ___bank_sprite_o_tileset           sprite_o_tileset
+     00000005  ___bank_sprite_p                   sprite_p
+     00000005  ___bank_sprite_p_tileset           sprite_p_tileset
+     00000005  ___bank_sprite_player_handcursor   sprite_player_handcursor
+     00000005  ___bank_sprite_q                   sprite_q
+     00000005  ___bank_sprite_q_tileset           sprite_q_tileset
+     00000005  ___bank_sprite_r                   sprite_r
+     00000005  ___bank_sprite_r_tileset           sprite_r_tileset
+     00000005  ___bank_sprite_s                   sprite_s
+     00000005  ___bank_sprite_s_tileset           sprite_s_tileset
+     00000005  ___bank_sprite_smalla              sprite_smalla
+     00000005  ___bank_sprite_smalla_tileset      sprite_smalla_tileset
+     00000005  ___bank_sprite_smallb              sprite_smallb
+     00000005  ___bank_sprite_smallb_tileset      sprite_smallb_tileset
+     00000005  ___bank_sprite_smallc              sprite_smallc
+     00000005  ___bank_sprite_smallc_tileset      sprite_smallc_tileset
+     00000005  ___bank_sprite_smalld              sprite_smalld
+     00000005  ___bank_sprite_smalld_tileset      sprite_smalld_tileset
+     00000005  ___bank_sprite_smalle              sprite_smalle
+     00000005  ___bank_sprite_smalle_tileset      sprite_smalle_tileset
+     00000005  ___bank_sprite_smallf              sprite_smallf
+     00000005  ___bank_sprite_smallf_tileset      sprite_smallf_tileset
+     00000005  ___bank_sprite_smallg              sprite_smallg
+     00000005  ___bank_sprite_smallg_tileset      sprite_smallg_tileset
+     00000005  ___bank_sprite_smallh              sprite_smallh
+     00000005  ___bank_sprite_smallh_tileset      sprite_smallh_tileset
+     00000005  ___bank_sprite_smalli              sprite_smalli
+     00000005  ___bank_sprite_smalli_tileset      sprite_smalli_tileset
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000005  ___bank_sprite_smallj              sprite_smallj
+     00000005  ___bank_sprite_smallj_tileset      sprite_smallj_tileset
+     00000005  ___bank_sprite_smallk              sprite_smallk
+     00000005  ___bank_sprite_smallk_tileset      sprite_smallk_tileset
+     00000005  ___bank_sprite_smalll              sprite_smalll
+     00000005  ___bank_sprite_smalll_tileset      sprite_smalll_tileset
+     00000005  ___bank_sprite_smallm              sprite_smallm
+     00000005  ___bank_sprite_smallm_tileset      sprite_smallm_tileset
+     00000005  ___bank_sprite_smalln              sprite_smalln
+     00000005  ___bank_sprite_smalln_tileset      sprite_smalln_tileset
+     00000005  ___bank_sprite_smallo              sprite_smallo
+     00000005  ___bank_sprite_smallo_tileset      sprite_smallo_tileset
+     00000005  ___bank_sprite_smallp              sprite_smallp
+     00000005  ___bank_sprite_smallp_tileset      sprite_smallp_tileset
+     00000005  ___bank_sprite_smallq              sprite_smallq
+     00000005  ___bank_sprite_smallq_tileset      sprite_smallq_tileset
+     00000005  ___bank_sprite_smallr              sprite_smallr
+     00000005  ___bank_sprite_smallr_tileset      sprite_smallr_tileset
+     00000005  ___bank_sprite_smalls              sprite_smalls
+     00000005  ___bank_sprite_smalls_tileset      sprite_smalls_tileset
+     00000005  ___bank_sprite_smallt              sprite_smallt
+     00000005  ___bank_sprite_smallt_tileset      sprite_smallt_tileset
+     00000005  ___bank_sprite_smallu              sprite_smallu
+     00000005  ___bank_sprite_smallu_tileset      sprite_smallu_tileset
+     00000005  ___bank_sprite_smallv              sprite_smallv
+     00000005  ___bank_sprite_smallv_tileset      sprite_smallv_tileset
+     00000005  ___bank_sprite_smallw              sprite_smallw
+     00000005  ___bank_sprite_smallw_tileset      sprite_smallw_tileset
+     00000005  ___bank_sprite_smallx              sprite_smallx
+     00000005  ___bank_sprite_smallx_tileset      sprite_smallx_tileset
+     00000005  ___bank_sprite_smally              sprite_smally
+     00000005  ___bank_sprite_smally_tileset      sprite_smally_tileset
+     00000005  ___bank_sprite_smallz              sprite_smallz
+     00000005  ___bank_sprite_smallz_tileset      sprite_smallz_tileset
+     00000005  ___bank_sprite_t                   sprite_t
+     00000005  ___bank_sprite_t_tileset           sprite_t_tileset
+     00000005  ___bank_sprite_u                   sprite_u
+     00000005  ___bank_sprite_u_tileset           sprite_u_tileset
+     00000005  ___bank_sprite_v                   sprite_v
+     00000005  ___bank_sprite_v_tileset           sprite_v_tileset
+     00000005  ___bank_sprite_w                   sprite_w
+     00000005  ___bank_sprite_w_tileset           sprite_w_tileset
+     00000005  ___bank_sprite_white_male          sprite_white_male
+     00000005  ___bank_sprite_white_male_tilese   sprite_white_male_tileset
+     00000005  ___bank_sprite_x                   sprite_x
+     00000005  ___bank_sprite_x_tileset           sprite_x_tileset
+     00000005  ___bank_sprite_y                   sprite_y
+     00000005  ___bank_sprite_y_tileset           sprite_y_tileset
+     00000005  ___bank_sprite_z                   sprite_z
+     00000005  ___bank_sprite_z_tileset           sprite_z_tileset
+     00000005  ___bank_spritesheet_none           spritesheet_none
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000005  ___bank_trigger_0_interact         trigger_0_interact
+     00000005  ___bank_trigger_1_interact         trigger_1_interact
+     00000005  ___bank_trigger_2_interact         trigger_2_interact
+     00000005  b_SIO_init                         sio
+     00000005  b_camera_init                      camera
+     00000005  b_camera_reset                     camera
+     00000005  b_erase_flash                      
+     00000005  b_events_init                      events
+     00000005  b_logo_init                        logo
+     00000005  b_logo_update                      logo
+     00000005  b_music_events_poll                music_manager
+     00000005  b_music_init_driver                music_manager
+     00000005  b_music_init_events                music_manager
+     00000005  b_palette_init                     palette
+     00000005  b_remove_LCD_ISRs                  interrupts
+     00000005  b_restore_sram                     flasher
+     00000005  b_restore_sram_bank                flasher
+     00000005  b_save_sram                        flasher
+     00000005  b_save_sram_banks                  
+     00000005  b_scroll_rect                      
+     00000005  b_timers_init                      events
+     00000005  b_vm_projectile_launch             vm_projectiles
+     00000005  b_vm_projectile_load_type          vm_projectiles
+     00000005  b_vm_rtc_get                       vm_rtc
+     00000005  b_vm_rtc_latch                     vm_rtc
+     00000005  b_vm_rtc_set                       vm_rtc
+     00000005  b_vm_rtc_start                     vm_rtc
+     00000005  b_vm_save_clear                    vm_load_save
+     00000005  b_vm_save_peek                     vm_load_save
+     00000005  b_vm_scene_pop                     vm_scene
+     00000005  b_vm_scene_pop_all                 vm_scene
+     00000005  b_vm_scene_push                    vm_scene
+     00000005  b_vm_scene_stack_reset             vm_scene
+     00000005  l__CRASH_HEADER0                
+     00000005  l__HEADER1                      
+     00000006  l__HEADER7                      
+     00000007  l__HEADER2                      
+     00000008  l__HEADER3                      
+     00000011  l__EHL_TRAMPOLINE0              
+     00000019  l__INITIALIZED                  
+     00000019  l__INITIALIZER                  
+     00000027  l__GSINIT                       
+     00000030  l__HEADER6                      
+     0000004E  l__HEADER4                      
+     00000082  l__HEADER10                     
+     000001CB  l__CRASH_SCRATCH2               
+     00000200  s__CODE                         
+     00000BE1  l__CODE                         
+     00000DE1  s__HOME                         
+     0000197E  l__DATA                         
+     00002000  _rROMB0                            
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00002B97  l__HOME                         
+     00002E41  l__CODE_5                       
+     00003000  _rROMB1                            
+     00003978  s__BASE                         
+     00003978  s__CODE_0                       
+     00003978  s__INITIALIZER                  
+     00003978  s__LIT                          
+     00003991  s__GSINIT                       
+     000039B8  s__GSFINAL                      
+     00003FFF  l__CODE_1                       
+     00003FFF  l__CODE_4                       
+     00004000  _RTC_SELECT_REG                    vm_rtc
+     00004000  _rRAMB                             
+     00004000  l__CODE_2                       
+     00004000  l__CODE_3                       
+     00006000  _RTC_LATCH_REG                     vm_rtc
+     00008000  __VRAM                             
+     00008000  __VRAM8000                         
+     00008800  __VRAM8800                         
+     00009000  __VRAM9000                         
+     00009800  __SCRN0                            
+     00009C00  __SCRN1                            
+     0000A000  _RTC_VALUE_REG                     vm_rtc
+     0000A000  __SRAM                             
+     0000C000  __RAM                              
+     0000C000  _shadow_OAM                     
+     0000C0A0  s__DATA                         
+     0000D000  __RAMBANK                          
+     0000DA1E  s__BSS                          
+     0000DA1E  s__INITIALIZED                  
+     0000DA37  s__HEAP                         
+     0000DF00  .STACK                          
+     0000DF00  _shadow_OAM2                       absolute
+     0000DFA0  _BkgPalette                        absolute
+     0000DFE0  _vwf_tile_data                     absolute
+     0000FE00  __OAMRAM                           
+     0000FF00  _P1_REG                            
+     0000FF00  __IO                               
+     0000FF01  _SB_REG                            
+     0000FF02  _SC_REG                            
+     0000FF04  _DIV_REG                           
+     0000FF05  _TIMA_REG                          
+     0000FF06  _TMA_REG                           
+     0000FF07  _TAC_REG                           
+     0000FF0F  _IF_REG                            
+     0000FF10  _NR10_REG                          
+     0000FF11  _NR11_REG                          
+     0000FF12  _NR12_REG                          
+     0000FF13  _NR13_REG                          
+     0000FF14  _NR14_REG                          
+     0000FF16  _NR21_REG                          
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FF17  _NR22_REG                          
+     0000FF18  _NR23_REG                          
+     0000FF19  _NR24_REG                          
+     0000FF1A  _NR30_REG                          
+     0000FF1B  _NR31_REG                          
+     0000FF1C  _NR32_REG                          
+     0000FF1D  _NR33_REG                          
+     0000FF1E  _NR34_REG                          
+     0000FF20  _NR41_REG                          
+     0000FF21  _NR42_REG                          
+     0000FF22  _NR43_REG                          
+     0000FF23  _NR44_REG                          
+     0000FF24  _NR50_REG                          
+     0000FF25  _NR51_REG                          
+     0000FF26  _NR52_REG                          
+     0000FF30  _AUD3WAVE                          
+     0000FF30  _PCM_SAMPLE                        
+     0000FF30  __AUD3WAVERAM                      
+     0000FF40  _LCDC_REG                          
+     0000FF41  _STAT_REG                          
+     0000FF42  _SCY_REG                           
+     0000FF43  _SCX_REG                           
+     0000FF44  _LY_REG                            
+     0000FF45  _LYC_REG                           
+     0000FF46  _DMA_REG                           
+     0000FF47  _BGP_REG                           
+     0000FF48  _OBP0_REG                          
+     0000FF49  _OBP1_REG                          
+     0000FF4A  _WY_REG                            
+     0000FF4B  _WX_REG                            
+     0000FF4D  _KEY1_REG                          
+     0000FF4F  _VBK_REG                           
+     0000FF51  _HDMA1_REG                         
+     0000FF52  _HDMA2_REG                         
+     0000FF53  _HDMA3_REG                         
+     0000FF54  _HDMA4_REG                         
+     0000FF55  _HDMA5_REG                         
+     0000FF56  _RP_REG                            
+     0000FF68  _BCPS_REG                          
+     0000FF69  _BCPD_REG                          
+     0000FF6A  _OCPS_REG                          
+     0000FF6B  _OCPD_REG                          
+     0000FF70  _SVBK_REG                          
+     0000FF76  _PCM12_REG                         
+     0000FF77  _PCM34_REG                         
+     0000FF80  .refresh_OAM                    
+     0000FF80  __HRAM                             
+     0000FFFF  _IE_REG                            
+     00014000  s__CODE_1                       
+     00024000  s__CODE_2                       
+     00034000  s__CODE_3                       
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00044000  s__CODE_4                       
+     00054000  s__CODE_5                       
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00000200    00000BE1 =        3041. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000200  ___HandleCrash                     
+     0000020A  _SIO_send_byte                     
+     0000021D  _SIO_receive                       
+     0000022E  _SetTile                           
+     0000023D  _set_win_tile_xy                   
+     00000242  _set_bkg_tile_xy                   
+     00000265  _GetWinAddr                        
+     0000026D  _GetBkgAddr                        
+     0000027B  _state_init                        
+     00000280  _state_update                      
+     000002A2  _ui_time_masks                     
+     000002AA  _ui_print_shift_char               
+     0000032D  _ui_draw_frame_row                 
+     00000336  .ui_draw_frame_row                 
+     0000035F  _script_cmds                       vm_instructions
+     00000593  _save_signature                    game_signature
+     00000597  _start_scene_x                     
+     00000599  _start_scene_y                     
+     0000059B  _start_scene_dir                   
+     0000059C  _start_scene                       
+     0000059F  _start_player_move_speed           
+     000005A0  _start_player_anim_tick            
+     000005A1  _ui_fonts                          
+     000005A4  _core_reset_hook                   main
+     000005AC  _main                              main
+     000005B4  _state_start_fns                   
+     000005C6  _state_update_fns                  
+     000005D8  _hUGE_init_banked                  hUGEDriver_obj
+     000005DC  _hUGE_init                         hUGEDriver_obj
+     000005E7  _hUGE_mute_channel_banked          hUGEDriver_obj
+     000005EB  _hUGE_mute_channel                 hUGEDriver_obj
+     000005F8  _hUGE_set_position_banked          hUGEDriver_obj
+     000005FC  _hUGE_set_position                 hUGEDriver_obj
+     00000605  hUGE_init                          hUGEDriver_obj
+     0000065B  hUGE_mute_channel                  hUGEDriver_obj
+     00000851  hUGE_set_position                  hUGEDriver_obj
+     000009B9  _hUGE_dosound                      hUGEDriver_obj
+     000009B9  _hUGE_dosound_banked               hUGEDriver_obj
+     000009B9  hUGE_dosound                       hUGEDriver_obj
+     00000CA8  _get_vram_byte                     
+     00000CB5  _get_win_tile_xy                   
+     00000CBD  _get_bkg_tile_xy                   
+     00000CE4  _hide_sprites_range                Metasprites
+     00000D14  .sgb_check                         
+     00000D14  _sgb_check                         
+     00000D5C  _sgb_transfer                      
+     00000D61  .sgb_transfer                      
+     00000DA2  ___move_metasprite                 Metasprites
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER0                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000020  .call_hl                           Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER1                            00000000    00000005 =           5. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000028  .MemsetSmall                       Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER2                            00000000    00000007 =           7. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000030  .MemcpySmall                       Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER3                            00000000    00000008 =           8. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER4                            00000000    0000004E =          78. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000080  .int                               Runtime
+     0000008F  _wait_int_handler                  Runtime
+     0000009C  __standard_VBL_handler             Runtime
+     000000AC  _refresh_OAM                       Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER5                            00000000    00000002 =           2. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER6                            00000000    00000030 =          48. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER7                            00000000    00000006 =           6. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER8                            00000000    00000003 =           3. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER9                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERa                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERb                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERc                            00000000    00000002 =           2. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERd                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERe                            00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADERf                            00000000    00000002 =           2. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER10                           00000000    00000082 =         130. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000150  .reset                             Runtime
+     00000150  _reset                             Runtime
+     00000157  .code_start                        Runtime
+     000001B7  _exit                              Runtime
+     000001BB  _set_interrupts                    Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER11                           00000000    00000001 =           1. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HOME                               00000DE1    00002B97 =       11159. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000DE1  .memset_simple                     Runtime
+     00000DEA  .memcpy_simple                     Runtime
+     00000E07  .remove_VBL                        Runtime
+     00000E0A  .remove_int                        Runtime
+     00000E27  .add_VBL                           Runtime
+     00000E2A  .add_int                           Runtime
+     00000E35  .wait_vbl_done                     Runtime
+     00000E35  _wait_vbl_done                     Runtime
+     00000E45  .display_off                       Runtime
+     00000E45  _display_off                       Runtime
+     00000E5D  _remove_VBL                        Runtime
+     00000E68  _add_VBL                           Runtime
+     00000E73  _actors_update                     actor
+     00001270  _SetBankedBkgData                  bankdata
+     0000128C  _SetBankedSpriteData               bankdata
+     000012A8  _SetBankedBkgTiles                 bankdata
+     000012C4  _SetBankedWinTiles                 bankdata
+     000012E0  _ReadBankedFarPtr                  bankdata
+     00001307  _ReadBankedUWORD                   bankdata
+     00001323  _MemcpyBanked                      bankdata
+     0000133F  _MemcpyVRAMBanked                  bankdata
+     0000135B  _IndexOfFarPtr                     bankdata
+     000013F1  _camera_update                     camera
+     00001524  _load_animations                   data_manager
+     00001583  _events_update                     events
+     00001655  _timers_update                     events
+     000016DD  _input_update                      input
+     0000170D  .sio_ISR                           
+     00001767  .timer_ISR                         
+     0000177C  _simple_LCD_isr                    interrupts
+     000017F8  _fullscreen_LCD_isr                interrupts
+     00001824  _VBL_isr                           interrupts
+     0000186E  _isqrt                             math
+     000018C4  _sine_wave                         math
+     000019C4  _dir_lookup                        math
+     000019CC  _dir_angle_lookup                  math
+     000019D0  _hUGETrackerRoutine                music_manager
+     000019FC  _music_events_update               music_manager
+     00001A7E  _music_play_isr                    music_manager
+     00001B24  _parallax_LCD_isr                  parallax
+     00001B61  _projectiles_update                projectiles
+     00002000  _projectiles_render                projectiles
+     00002173  _scroll_load_pending_row           scroll
+     000021C6  _scroll_load_row                   scroll
+     0000220B  _scroll_load_col                   scroll
+     0000223F  _scroll_load_pending_col           scroll
+     00002297  _set_bkg_submap                    
+     000022DA  _set_xy_win_submap                 
+     00002307  .set_xy_win_submap                 
+     00002310  .set_xy_bkg_submap                 
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HOME                               00000DE1    00002B97 =       11159. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000231F  .set_xy_submap                     
+     00002365  _sfx_play_isr                      sfx_player
+     00002438  _on_SIO_receive                    sio
+     00002479  _SIO_update                        sio
+     000024E0  _ui_update                         ui
+     0000260F  _vm_sgb_transfer                   vm_sgb
+     0000265D  _vm_load_text                      vm_ui
+     000028B2  _vm_switch                         vm
+     000029B5  _vm_beginthread                    vm
+     00002ADA  _vm_rpn                            vm
+     0000321C  _vm_get_far                        vm
+     00003286  _vm_call_native                    vm
+     00003299  _VM_STEP                           vm
+     00003307  _script_runner_update              vm
+     00003472  _fill_win_rect                     
+     00003484  _rand                              
+     00003484  _randw                             
+     000034AF  _initrand                          
+     000034B1  .initrand                          
+     000034BA  _get_bkg_data                      
+     000034BA  _get_win_data                      
+     00003507  _get_sprite_data                   
+     00003537  __mulsuchar                        mul
+     00003541  __muluschar                        mul
+     0000354B  __mulschar                         mul
+     0000355D  __muluchar                         mul
+     00003569  __mulint                           mul
+     0000358F  _abs                               abs
+     0000359E  _set_win_tiles                     
+     000035B2  _set_tile_data                     
+     000035B7  _set_bkg_data                      
+     000035B7  _set_win_data                      
+     000035BF  _set_sprite_data                   
+     000035EF  _reverse                           reverse
+     00003623  ___call__banked                    far_ptr
+     00003640  _to_far_ptr                        far_ptr
+     00003679  _add_LCD                           
+     00003684  .add_LCD                           
+     0000368A  _remove_LCD                        
+     00003695  .remove_LCD                        
+     0000369B  .fill_rect_wtt                     
+     000036A4  .fill_rect_btt                     
+     000036F1  .copy_vram                         
+     00003705  _get_data                          
+     00003705  _set_data                          
+     00003705  _vmemcpy                           
+     00003718  _fill_bkg_rect                     
+     0000372A  .padup                             
+     0000372A  _waitpadup                         
+     0000373A  .jpad                              
+     0000373A  _joypad                            
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HOME                               00000DE1    00002B97 =       11159. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00003762  _waitpad                           
+     00003765  .wait_pad                          
+     0000376C  ___sdcc_call_hl                    call_hl
+     0000376D  ___memcpy                          memcpy
+     0000376D  _memcpy                            memcpy
+     000037B0  _memset                            memset
+     000037E3  .set_xy_wtt                        SetTileMap
+     000037EC  .set_xy_btt                        SetTileMap
+     000037FB  .set_xy_tt                         SetTileMap
+     0000383D  __divsuchar                        div
+     0000384A  __modsuchar                        div
+     00003854  __divuschar                        div
+     00003866  __moduschar                        div
+     00003876  __divschar                         div
+     00003882  __modschar                         div
+     0000388C  __divsint                          div
+     0000389D  __modsint                          div
+     000038AC  __divuchar                         div
+     000038B8  __moduchar                         div
+     000038C2  __divuint                          div
+     000038D3  __moduint                          div
+     000038E2  .div8                              div
+     000038E2  .mod8                              div
+     000038EA  .div16                             div
+     000038EA  .mod16                             div
+     00003920  .divu8                             div
+     00003920  .modu8                             div
+     00003923  .divu16                            div
+     00003923  .modu16                            div
+     00003964  _set_bkg_tiles                     
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_INITIALIZER                        00003978    00000019 =          25. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSINIT                             00003991    00000027 =          39. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00003991  gsinit                             Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_GSFINAL                            000039B8    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               0000C0A0    0000197E =        6526. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C0A0  __cpu                              Runtime
+     0000C0A1  __is_GBA                           Runtime
+     0000C0A2  .mode                              Runtime
+     0000C0A3  .sys_time                          Runtime
+     0000C0A3  _sys_time                          Runtime
+     0000C0A5  .int_0x40                          Runtime
+     0000C0B9  _actors                            actor
+     0000C4FD  _actors_active_head                actor
+     0000C4FF  _actors_active_tail                actor
+     0000C501  _actors_inactive_head              actor
+     0000C503  _screen_x                          actor
+     0000C504  _screen_y                          actor
+     0000C505  _invalid                           actor
+     0000C507  _player_moving                     actor
+     0000C508  _player_iframes                    actor
+     0000C509  _player_collision_actor            actor
+     0000C50B  _emote_actor                       actor
+     0000C50D  _emote_timer                       actor
+     0000C50E  _allocated_hardware_sprites        actor
+     0000C51A  _camera_x                          camera
+     0000C51C  _camera_y                          camera
+     0000C51E  _camera_offset_x                   camera
+     0000C51F  _camera_offset_y                   camera
+     0000C520  _camera_deadzone_x                 camera
+     0000C521  _camera_deadzone_y                 camera
+     0000C522  _camera_settings                   camera
+     0000C526  _current_scene                     data_manager
+     0000C529  _image_bank                        data_manager
+     0000C52A  _image_ptr                         data_manager
+     0000C52C  _image_attr_bank                   data_manager
+     0000C52D  _image_attr_ptr                    data_manager
+     0000C52F  _collision_bank                    data_manager
+     0000C530  _collision_ptr                     data_manager
+     0000C532  _image_tile_width                  data_manager
+     0000C533  _image_tile_height                 data_manager
+     0000C534  _image_width                       data_manager
+     0000C536  _image_height                      data_manager
+     0000C538  _sprites_len                       data_manager
+     0000C539  _actors_len                        data_manager
+     0000C53A  _projectiles_len                   data_manager
+     0000C53B  _player_sprite_len                 data_manager
+     0000C53C  _scene_type                        data_manager
+     0000C53D  _scene_LCD_type                    data_manager
+     0000C53E  _scene_stack                       data_manager
+     0000C57E  _scene_stack_ptr                   data_manager
+     0000C580  _scene_sprites_base_tiles          data_manager
+     0000C5C0  _input_events                      events
+     0000C5E8  _input_slots                       events
+     0000C5F0  _timer_events                      events
+     0000C604  _timer_values                      events
+ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               0000C0A0    0000197E =        6526. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C60C  _fade_running                      fade_manager
+     0000C60D  _fade_frames_per_step              fade_manager
+     0000C60E  _fade_timer                        fade_manager
+     0000C616  _joypads                           input
+     0000C61B  _frame_joy                         input
+     0000C61C  _last_joy                          input
+     0000C61D  _recent_joy                        input
+     0000C61E  _SIO_status                        
+     0000C61F  _link_byte_sent                    
+     0000C620  _link_next_mode                    
+     0000C621  _save_blob_size                    load_save
+     0000C623  _routine_queue                     music_manager
+     0000C627  _routine_queue_head                music_manager
+     0000C628  _routine_queue_tail                music_manager
+     0000C629  _music_events                      music_manager
+     0000C63D  _music_current_track_bank          music_manager
+     0000C63E  _music_mute_flag                   music_manager
+     0000C63F  _music_mute_mask                   music_manager
+     0000C640  _music_next_track                  music_manager
+     0000C642  _music_current_track               music_manager
+     0000C644  _music_play_isr_counter            music_manager
+     0000C645  _music_play_isr_pause              music_manager
+     0000C646  _music_global_mute_mask            music_manager
+     0000C647  _music_sfx_priority                music_manager
+     0000C648  _DMG_palette                       palette
+     0000C64B  _SprPalette                        palette
+     0000C68B  _parallax_rows                     parallax
+     0000C69D  _parallax_row                      parallax
+     0000C69F  _projectiles                       projectiles
+     0000C758  _projectile_defs                   projectiles
+     0000C7CB  _projectiles_active_head           projectiles
+     0000C7CD  _projectiles_inactive_head         projectiles
+     0000C7D4  _scroll_x                          scroll
+     0000C7D6  _scroll_y                          scroll
+     0000C7D8  _draw_scroll_x                     scroll
+     0000C7DA  _draw_scroll_y                     scroll
+     0000C7DC  _scroll_x_max                      scroll
+     0000C7DE  _scroll_y_max                      scroll
+     0000C7E0  _scroll_offset_x                   scroll
+     0000C7E1  _scroll_offset_y                   scroll
+     0000C7E2  _pending_h_x                       scroll
+     0000C7E3  _pending_h_y                       scroll
+     0000C7E4  _pending_h_i                       scroll
+     0000C7E5  _pending_w_x                       scroll
+     0000C7E6  _pending_w_y                       scroll
+     0000C7E7  _pending_w_i                       scroll
+     0000C7E8  _current_row                       scroll
+     0000C7EA  _new_row                           scroll
+     0000C7EC  _current_col                       scroll
+     0000C7EE  _new_col                           scroll
+     0000C7F0  .image_tile_width                  
+ASxxxx Linker V03.00 + NoICE + sdld,  page 41.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               0000C0A0    0000197E =        6526. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C7F1  _sfx_play_bank                     sfx_player
+     0000C7F2  _sfx_play_sample                   sfx_player
+     0000C7F4  _sfx_frame_skip                    sfx_player
+     0000C7F5  _link_operation_mode               sio
+     0000C7F6  _link_packet                       sio
+     0000C816  _link_packet_len                   sio
+     0000C817  _link_packet_ptr                   sio
+     0000C819  _link_packet_received              sio
+     0000C81A  _link_packet_snd_len               sio
+     0000C81B  _link_packet_snd_ptr               sio
+     0000C81D  _link_packet_sent                  sio
+     0000C81E  __is_CGB                           system
+     0000C81F  __is_SGB                           system
+     0000C820  __current_ram_bank                 system
+     0000C821  _triggers                          trigger
+     0000C919  _last_trigger_tx                   trigger
+     0000C91A  _last_trigger_ty                   trigger
+     0000C91B  _last_trigger                      trigger
+     0000C91C  _win_pos_x                         ui
+     0000C91D  _win_dest_pos_x                    ui
+     0000C91E  _win_pos_y                         ui
+     0000C91F  _win_dest_pos_y                    ui
+     0000C920  _win_speed                         ui
+     0000C921  _text_drawn                        ui
+     0000C922  _current_text_speed                ui
+     0000C923  _text_wait                         ui
+     0000C924  _text_options                      ui
+     0000C925  _text_in_speed                     ui
+     0000C926  _text_out_speed                    ui
+     0000C927  _text_draw_speed                   ui
+     0000C928  _text_ff_joypad                    ui
+     0000C929  _text_ff                           ui
+     0000C92A  _text_bkg_fill                     ui
+     0000C92B  _ui_text_data                      ui
+     0000CA35  _vwf_current_mask                  ui
+     0000CA36  _vwf_current_rotate                ui
+     0000CA37  _vwf_inverse_map                   ui
+     0000CA38  _vwf_direction                     ui
+     0000CA39  _vwf_current_font_desc             ui
+     0000CA41  _vwf_current_font_bank             ui
+     0000CA42  _vwf_current_font_idx              ui
+     0000CA43  _text_render_base_addr             ui
+     0000CA45  _text_scroll_addr                  ui
+     0000CA47  _text_scroll_width                 ui
+     0000CA48  _text_scroll_height                ui
+     0000CA49  _text_scroll_fill                  ui
+     0000CA4A  _text_sound_mask                   ui
+     0000CA4B  _text_sound_bank                   ui
+     0000CA4C  _text_sound_data                   ui
+     0000CA54  __itoa_fmt_len                     vm_ui_a
+     0000CA55  .itoa_fmt_buf                      vm_ui_a
+ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               0000C0A0    0000197E =        6526. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000CA58  _CTXS                              vm
+     0000CB88  _first_ctx                         vm
+     0000CB8A  _free_ctxs                         vm
+     0000CB8C  _old_executing_ctx                 vm
+     0000CB8E  _executing_ctx                     vm
+     0000CB90  _vm_lock_state                     vm
+     0000CB91  _vm_loaded_state                   vm
+     0000CB92  _vm_exception_code                 vm
+     0000CB93  _vm_exception_params_length        vm
+     0000CB94  _vm_exception_params_bank          vm
+     0000CB95  _vm_exception_params_offset        vm
+     0000CB98  _script_memory                     vm
+     0000D99E  _grounded                          platform
+     0000D99F  _on_ladder                         platform
+     0000D9A0  _pl_vel_x                          platform
+     0000D9A2  _pl_vel_y                          platform
+     0000D9A4  _plat_min_vel                      platform
+     0000D9A6  _plat_walk_vel                     platform
+     0000D9A8  _plat_climb_vel                    platform
+     0000D9AA  _plat_run_vel                      platform
+     0000D9AC  _plat_walk_acc                     platform
+     0000D9AE  _plat_run_acc                      platform
+     0000D9B0  _plat_dec                          platform
+     0000D9B2  _plat_jump_vel                     platform
+     0000D9B4  _plat_grav                         platform
+     0000D9B6  _plat_hold_grav                    platform
+     0000D9B8  _plat_max_fall_vel                 platform
+     0000D9BA  _shooter_reached_end               shmup
+     0000D9BB  _shooter_dest                      shmup
+     0000D9BD  _shooter_direction                 shmup
+     0000D9BE  _topdown_grid                      topdown
+     0000D9BF  ___rand_seed                       
+     0000D9DD  _hUGE_current_wave                 hUGEDriver_obj
+     0000D9DD  hUGE_current_wave                  hUGEDriver_obj
+     0000D9DE  _hUGE_mute_mask                    hUGEDriver_obj
+     0000DA07  ___call_banked_addr                far_ptr
+     0000DA07  ___call_banked_ptr                 far_ptr
+     0000DA09  ___call_banked_bank                far_ptr
+     0000DA0B  .int_0x48                          
+     0000DA1B  ___current_metasprite              Metasprites
+     0000DA1D  ___current_base_tile               Metasprites
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_INITIALIZED                        0000DA1E    00000019 =          25. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000DA1E  _fade_style                        fade_manager
+     0000DA1F  _game_time                         game_time
+     0000DA20  _PRN_PKT_START                     gbprinter
+     0000DA2E  _hide_sprites                      interrupts
+     0000DA2F  _show_actors_on_overlay            interrupts
+     0000DA30  _overlay_cut_scanline              interrupts
+     0000DA31  _triggers_len                      trigger
+     0000DA32  _exchange_state                    vm_sio
+     0000DA33  _last_hit_trigger                  pointnclick
+     0000DA34  _shooter_scroll_speed              shmup
+     0000DA35  ___render_shadow_OAM               Metasprites
+     0000DA36  __map_tile_offset                  SetTileMap
+ASxxxx Linker V03.00 + NoICE + sdld,  page 44.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HRAM12                             00000000    00000003 =           3. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000FF90  __current_bank                     Runtime
+     0000FF92  __shadow_OAM_base                  Runtime
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 45.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_EHL_TRAMPOLINE0                    00000000    00000011 =          17. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  ___sdcc_bcall_ehl                  
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 46.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_1                             00014000    00003FFF =       16383. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00014000  ___func_ACTOR                      actor
+     00014000  _actors_init                       actor
+     0001403A  _emote_offsets                     actor
+     00014049  _emote_metasprite                  actor
+     00014055  _player_init                       actor
+     0001406A  _deactivate_actor                  actor
+     000141DB  _activate_actor                    actor
+     0001431A  _activate_actors_in_row            actor
+     00014411  _activate_actors_in_col            actor
+     00014562  _actor_set_frames                  actor
+     000145B6  _actor_set_frame_offset            actor
+     000145F3  _actor_get_frame_offset            actor
+     00014606  _actor_set_anim_idle               actor
+     00014634  _actor_set_anim_moving             actor
+     00014665  _actor_set_dir                     actor
+     000146CA  _actor_at_tile                     actor
+     000147A0  _actor_in_front_of_player          actor
+     00014887  _actor_overlapping_player          actor
+     00014B20  _actor_overlapping_bb              actor
+     00014D3F  _actors_handle_player_collision    actor
+     00014DCA  _check_collision_in_direction      actor
+     000155BA  _parallax_init                     parallax
+     000155DE  _ui_swap_tiles                     
+     00015628  _ui_print_make_mask_lr             
+     00015644  _ui_print_make_mask_rl             
+     00015660  _ui_init                           ui
+     00015729  _ui_load_tiles                     ui
+     00015780  _ui_draw_frame                     ui
+     000157EF  _ui_print_reset                    ui
+     00015823  _ui_set_start_tile                 ui
+     0001584F  _ui_print_render                   ui
+     00015A43  _ui_draw_text_buffer_char          ui
+     00015EA9  _ui_run_menu                       ui
+     00016102  _ui_run_modal                      ui
+     000161D1  ___func_VM_ACTOR                   vm_actor
+     000161D1  _vm_actor_move_to                  vm_actor
+     00016B6E  _vm_actor_move_cancel              vm_actor
+     00016BA4  _vm_actor_activate                 vm_actor
+     00016BF6  _vm_actor_deactivate               vm_actor
+     00016C47  _vm_actor_terminate_update         vm_actor
+     00016C8E  _vm_actor_set_dir                  vm_actor
+     00016CD7  _vm_actor_set_anim                 vm_actor
+     00016D64  _vm_actor_set_pos                  vm_actor
+     00016DDE  _vm_actor_get_pos                  vm_actor
+     00016E4D  _vm_actor_get_dir                  vm_actor
+     00016EC7  _vm_actor_get_angle                vm_actor
+     00016F48  _vm_actor_emote                    vm_actor
+     0001700C  _vm_actor_set_bounds               vm_actor
+     0001706A  _vm_actor_set_spritesheet          vm_actor
+     00017139  _vm_actor_replace_tile             vm_actor
+ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_1                             00014000    00003FFF =       16383. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000171A3  _vm_actor_set_anim_tick            vm_actor
+     000171E1  _vm_actor_set_move_speed           vm_actor
+     0001721F  _vm_actor_set_anim_frame           vm_actor
+     00017263  _vm_actor_get_anim_frame           vm_actor
+     000172AC  _vm_actor_set_anim_set             vm_actor
+     00017339  _vm_actor_set_spritesheet_by_ref   vm_actor
+     00017447  _vm_actor_set_flags                vm_actor
+     000174F5  ___func_VM_SGB                     vm_sgb
+     000174F5  _script_timer_0                    script_timer_0
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00054000  _bootstrap_script                  
+     0005400B  _camera_init                       camera
+     00054029  _camera_reset                      camera
+     00054039  _events_init                       events
+     00054079  _timers_init                       events
+     00054121  _save_sram_banks                   
+     000541A9  _erase_flash                       
+     000541BF  _restore_sram_bank                 flasher
+     000541F9  _restore_sram                      flasher
+     0005420F  _save_sram                         flasher
+     0005423F  _remove_LCD_ISRs                   interrupts
+     00054260  _music_init_driver                 music_manager
+     000542B7  _music_init_events                 music_manager
+     000542F3  _music_events_poll                 music_manager
+     0005431D  _music_pause                       music_manager
+     00054342  _palette_init                      palette
+     00054352  _scroll_rect                       
+     0005438F  _SIO_init                          sio
+     000543B8  ___func_VM_LOAD_SAVE               vm_load_save
+     000543B8  _vm_save_clear                     vm_load_save
+     000543C7  _vm_save_peek                      vm_load_save
+     00054449  ___func_VM_PROJECTILE              vm_projectiles
+     00054449  _vm_projectile_launch              vm_projectiles
+     0005448A  _vm_projectile_load_type           vm_projectiles
+     00054535  ___func_VM_RTC                     vm_rtc
+     00054535  _vm_rtc_latch                      vm_rtc
+     0005453D  _vm_rtc_get                        vm_rtc
+     000545A6  _vm_rtc_set                        vm_rtc
+     0005460E  _vm_rtc_start                      vm_rtc
+     00054631  ___func_VM_SCENE                   vm_scene
+     00054631  _vm_scene_push                     vm_scene
+     000546B6  _vm_scene_pop                      vm_scene
+     000546C4  _vm_scene_pop_all                  vm_scene
+     000546CF  _vm_scene_stack_reset              vm_scene
+     000546D8  _actor_1_update                    actor_1_update
+     000547F3  _actor_2_interact                  actor_2_interact
+     00054892  _actor_3_interact                  actor_3_interact
+     000548E3  ___func_bg_bedroom                 bg_bedroom
+     000548E3  _bg_bedroom                        bg_bedroom
+     000548F1  ___func_bg_keyboard                bg_keyboard
+     000548F1  _bg_keyboard                       bg_keyboard
+     000548FF  ___func_bg_livingroom              bg_livingroom
+     000548FF  _bg_livingroom                     bg_livingroom
+     0005490D  ___func_bg_logo                    bg_logo
+     0005490D  _bg_logo                           bg_logo
+     0005491B  ___func_bg_titlescreen             bg_titlescreen
+     0005491B  _bg_titlescreen                    bg_titlescreen
+     00054929  ___func_cursor_image               cursor_image
+     00054929  _cursor_image                      cursor_image
+     00054939  ___func_frame_image                frame_image
+ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00054939  _frame_image                       frame_image
+     000549C9  ___func_palette_0                  palette_0
+     000549C9  _palette_0                         palette_0
+     000549CC  ___func_palette_1                  palette_1
+     000549CC  _palette_1                         palette_1
+     000549CF  ___func_scene_bedroom_actors       scene_bedroom_actors
+     000549CF  _scene_bedroom_actors              scene_bedroom_actors
+     00054A03  _scene_bedroom_init                scene_bedroom_init
+     00054B36  ___func_scene_bedroom_sprites      scene_bedroom_sprites
+     00054B36  _scene_bedroom_sprites             scene_bedroom_sprites
+     00054B39  ___func_scene_bedroom_triggers     scene_bedroom_triggers
+     00054B39  _scene_bedroom_triggers            scene_bedroom_triggers
+     00054B41  ___func_scene_bedroom              scene_bedroom
+     00054B41  _scene_bedroom                     scene_bedroom
+     00054B7C  _scene_keyboard_init               scene_keyboard_init
+     00054C15  ___func_scene_keyboard_triggers    scene_keyboard_triggers
+     00054C15  _scene_keyboard_triggers           scene_keyboard_triggers
+     00054C1D  ___func_scene_keyboard             scene_keyboard
+     00054C1D  _scene_keyboard                    scene_keyboard
+     00054C58  ___func_scene_living_room_actors   scene_living_room_actors
+     00054C58  _scene_living_room_actors          scene_living_room_actors
+     00054CF4  _scene_living_room_init            scene_living_room_init
+     00054D0A  ___func_scene_living_room_sprite   scene_living_room_sprites
+     00054D0A  _scene_living_room_sprites         scene_living_room_sprites
+     00054D13  ___func_scene_living_room_trigge   scene_living_room_triggers
+     00054D13  _scene_living_room_triggers        scene_living_room_triggers
+     00054D1B  ___func_scene_living_room          scene_living_room
+     00054D1B  _scene_living_room                 scene_living_room
+     00054D56  _scene_logo_init                   scene_logo_init
+     00054DB3  ___func_scene_logo                 scene_logo
+     00054DB3  _scene_logo                        scene_logo
+     00054DEE  _scene_title_init                  scene_title_init
+     00054E30  ___func_scene_title                scene_title
+     00054E30  _scene_title                       scene_title
+     00054E6B  _script_engine_init                
+     00054EBD  _script_input_0                    script_input_0
+     00054FE0  _script_input_1                    script_input_1
+     000550F3  _script_input_2                    script_input_2
+     0005511A  _script_row1alphabet               script_row1alphabet
+     00055227  _script_row2alphabet               script_row2alphabet
+     00055322  _script_row3alphabet               script_row3alphabet
+     0005541D  _script_row4alphabet               script_row4alphabet
+     00055518  ___func_sprite_a_tileset           sprite_a_tileset
+     00055518  _sprite_a_tileset                  sprite_a_tileset
+     0005553A  ___func_sprite_a                   sprite_a
+     0005553A  _sprite_a_metasprite_0             sprite_a
+     0005553E  _sprite_a_metasprite_1             sprite_a
+     00055546  _sprite_a_metasprite_2             sprite_a
+     0005554E  _sprite_a_metasprites              sprite_a
+     00055554  _sprite_a_animations               sprite_a
+     00055564  _sprite_a_animations_lookup        sprite_a
+ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00055566  _sprite_a                          sprite_a
+     00055579  ___func_sprite_b_tileset           sprite_b_tileset
+     00055579  _sprite_b_tileset                  sprite_b_tileset
+     0005559B  ___func_sprite_b                   sprite_b
+     0005559B  _sprite_b_metasprite_0             sprite_b
+     0005559F  _sprite_b_metasprite_1             sprite_b
+     000555A7  _sprite_b_metasprite_2             sprite_b
+     000555AF  _sprite_b_metasprites              sprite_b
+     000555B5  _sprite_b_animations               sprite_b
+     000555C5  _sprite_b_animations_lookup        sprite_b
+     000555C7  _sprite_b                          sprite_b
+     000555DA  ___func_sprite_c_tileset           sprite_c_tileset
+     000555DA  _sprite_c_tileset                  sprite_c_tileset
+     000555FC  ___func_sprite_c                   sprite_c
+     000555FC  _sprite_c_metasprite_0             sprite_c
+     00055600  _sprite_c_metasprite_1             sprite_c
+     00055608  _sprite_c_metasprite_2             sprite_c
+     00055610  _sprite_c_metasprites              sprite_c
+     00055616  _sprite_c_animations               sprite_c
+     00055626  _sprite_c_animations_lookup        sprite_c
+     00055628  _sprite_c                          sprite_c
+     0005563B  ___func_sprite_computer_tileset    sprite_computer_tileset
+     0005563B  _sprite_computer_tileset           sprite_computer_tileset
+     0005567D  ___func_sprite_computer            sprite_computer
+     0005567D  _sprite_computer_metasprite_0      sprite_computer
+     00055689  _sprite_computer_metasprites       sprite_computer
+     0005568B  _sprite_computer_animations        sprite_computer
+     0005569B  _sprite_computer_animations_look   sprite_computer
+     0005569D  _sprite_computer                   sprite_computer
+     000556B0  ___func_sprite_d_tileset           sprite_d_tileset
+     000556B0  _sprite_d_tileset                  sprite_d_tileset
+     000556D2  ___func_sprite_d                   sprite_d
+     000556D2  _sprite_d_metasprite_0             sprite_d
+     000556D6  _sprite_d_metasprite_1             sprite_d
+     000556DE  _sprite_d_metasprite_2             sprite_d
+     000556E6  _sprite_d_metasprites              sprite_d
+     000556EC  _sprite_d_animations               sprite_d
+     000556FC  _sprite_d_animations_lookup        sprite_d
+     000556FE  _sprite_d                          sprite_d
+     00055711  ___func_sprite_dad_tileset         sprite_dad_tileset
+     00055711  _sprite_dad_tileset                sprite_dad_tileset
+     00055793  ___func_sprite_dad                 sprite_dad
+     00055793  _sprite_dad_metasprite_0           sprite_dad
+     0005579F  _sprite_dad_metasprite_1           sprite_dad
+     000557AB  _sprite_dad_metasprites            sprite_dad
+     000557AF  _sprite_dad_animations             sprite_dad
+     000557BF  _sprite_dad_animations_lookup      sprite_dad
+     000557C1  _sprite_dad                        sprite_dad
+     000557D4  ___func_sprite_e_tileset           sprite_e_tileset
+     000557D4  _sprite_e_tileset                  sprite_e_tileset
+     000557F6  ___func_sprite_e                   sprite_e
+ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000557F6  _sprite_e_metasprite_0             sprite_e
+     000557FA  _sprite_e_metasprite_1             sprite_e
+     00055802  _sprite_e_metasprite_2             sprite_e
+     0005580A  _sprite_e_metasprites              sprite_e
+     00055810  _sprite_e_animations               sprite_e
+     00055820  _sprite_e_animations_lookup        sprite_e
+     00055822  _sprite_e                          sprite_e
+     00055835  ___func_sprite_f_tileset           sprite_f_tileset
+     00055835  _sprite_f_tileset                  sprite_f_tileset
+     00055857  ___func_sprite_f                   sprite_f
+     00055857  _sprite_f_metasprite_0             sprite_f
+     0005585B  _sprite_f_metasprite_1             sprite_f
+     00055863  _sprite_f_metasprite_2             sprite_f
+     0005586B  _sprite_f_metasprites              sprite_f
+     00055871  _sprite_f_animations               sprite_f
+     00055881  _sprite_f_animations_lookup        sprite_f
+     00055883  _sprite_f                          sprite_f
+     00055896  ___func_sprite_g_tileset           sprite_g_tileset
+     00055896  _sprite_g_tileset                  sprite_g_tileset
+     000558B8  ___func_sprite_g                   sprite_g
+     000558B8  _sprite_g_metasprite_0             sprite_g
+     000558BC  _sprite_g_metasprite_1             sprite_g
+     000558C4  _sprite_g_metasprite_2             sprite_g
+     000558CC  _sprite_g_metasprites              sprite_g
+     000558D2  _sprite_g_animations               sprite_g
+     000558E2  _sprite_g_animations_lookup        sprite_g
+     000558E4  _sprite_g                          sprite_g
+     000558F7  ___func_sprite_h_tileset           sprite_h_tileset
+     000558F7  _sprite_h_tileset                  sprite_h_tileset
+     00055919  ___func_sprite_h                   sprite_h
+     00055919  _sprite_h_metasprite_0             sprite_h
+     0005591D  _sprite_h_metasprite_1             sprite_h
+     00055925  _sprite_h_metasprite_2             sprite_h
+     0005592D  _sprite_h_metasprites              sprite_h
+     00055933  _sprite_h_animations               sprite_h
+     00055943  _sprite_h_animations_lookup        sprite_h
+     00055945  _sprite_h                          sprite_h
+     00055958  ___func_sprite_i_tileset           sprite_i_tileset
+     00055958  _sprite_i_tileset                  sprite_i_tileset
+     0005597A  ___func_sprite_i                   sprite_i
+     0005597A  _sprite_i_metasprite_0             sprite_i
+     0005597E  _sprite_i_metasprite_1             sprite_i
+     00055986  _sprite_i_metasprite_2             sprite_i
+     0005598E  _sprite_i_metasprites              sprite_i
+     00055994  _sprite_i_animations               sprite_i
+     000559A4  _sprite_i_animations_lookup        sprite_i
+     000559A6  _sprite_i                          sprite_i
+     000559B9  ___func_sprite_invisibleactor_ti   sprite_invisibleactor_tilese
+     000559B9  _sprite_invisibleactor_tileset     sprite_invisibleactor_tilese
+     000559BC  ___func_sprite_invisibleactor      sprite_invisibleactor
+     000559BC  _sprite_invisibleactor_metasprit   sprite_invisibleactor
+ASxxxx Linker V03.00 + NoICE + sdld,  page 52.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000559C0  _sprite_invisibleactor_metasprit   sprite_invisibleactor
+     000559C2  _sprite_invisibleactor_animation   sprite_invisibleactor
+     000559D2  _sprite_invisibleactor_animation   sprite_invisibleactor
+     000559D4  _sprite_invisibleactor             sprite_invisibleactor
+     000559E7  ___func_sprite_j_tileset           sprite_j_tileset
+     000559E7  _sprite_j_tileset                  sprite_j_tileset
+     00055A09  ___func_sprite_j                   sprite_j
+     00055A09  _sprite_j_metasprite_0             sprite_j
+     00055A0D  _sprite_j_metasprite_1             sprite_j
+     00055A15  _sprite_j_metasprite_2             sprite_j
+     00055A1D  _sprite_j_metasprites              sprite_j
+     00055A23  _sprite_j_animations               sprite_j
+     00055A33  _sprite_j_animations_lookup        sprite_j
+     00055A35  _sprite_j                          sprite_j
+     00055A48  ___func_sprite_k_tileset           sprite_k_tileset
+     00055A48  _sprite_k_tileset                  sprite_k_tileset
+     00055A6A  ___func_sprite_k                   sprite_k
+     00055A6A  _sprite_k_metasprite_0             sprite_k
+     00055A6E  _sprite_k_metasprite_1             sprite_k
+     00055A76  _sprite_k_metasprite_2             sprite_k
+     00055A7E  _sprite_k_metasprites              sprite_k
+     00055A84  _sprite_k_animations               sprite_k
+     00055A94  _sprite_k_animations_lookup        sprite_k
+     00055A96  _sprite_k                          sprite_k
+     00055AA9  ___func_sprite_l_tileset           sprite_l_tileset
+     00055AA9  _sprite_l_tileset                  sprite_l_tileset
+     00055ACB  ___func_sprite_l                   sprite_l
+     00055ACB  _sprite_l_metasprite_0             sprite_l
+     00055ACF  _sprite_l_metasprite_1             sprite_l
+     00055AD7  _sprite_l_metasprite_2             sprite_l
+     00055ADF  _sprite_l_metasprites              sprite_l
+     00055AE5  _sprite_l_animations               sprite_l
+     00055AF5  _sprite_l_animations_lookup        sprite_l
+     00055AF7  _sprite_l                          sprite_l
+     00055B0A  ___func_sprite_m_tileset           sprite_m_tileset
+     00055B0A  _sprite_m_tileset                  sprite_m_tileset
+     00055B2C  ___func_sprite_m                   sprite_m
+     00055B2C  _sprite_m_metasprite_0             sprite_m
+     00055B30  _sprite_m_metasprite_1             sprite_m
+     00055B38  _sprite_m_metasprite_2             sprite_m
+     00055B40  _sprite_m_metasprites              sprite_m
+     00055B46  _sprite_m_animations               sprite_m
+     00055B56  _sprite_m_animations_lookup        sprite_m
+     00055B58  _sprite_m                          sprite_m
+     00055B6B  ___func_sprite_mom_tileset         sprite_mom_tileset
+     00055B6B  _sprite_mom_tileset                sprite_mom_tileset
+     00055C6D  ___func_sprite_mom                 sprite_mom
+     00055C6D  _sprite_mom_metasprite_0           sprite_mom
+     00055C79  _sprite_mom_metasprite_1           sprite_mom
+     00055C85  _sprite_mom_metasprite_2           sprite_mom
+     00055C91  _sprite_mom_metasprite_3           sprite_mom
+ASxxxx Linker V03.00 + NoICE + sdld,  page 53.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00055C9D  _sprite_mom_metasprite_4           sprite_mom
+     00055CA9  _sprite_mom_metasprite_5           sprite_mom
+     00055CB5  _sprite_mom_metasprite_6           sprite_mom
+     00055CC1  _sprite_mom_metasprite_7           sprite_mom
+     00055CCD  _sprite_mom_metasprites            sprite_mom
+     00055CED  _sprite_mom_animations             sprite_mom
+     00055CFD  _sprite_mom_animations_lookup      sprite_mom
+     00055CFF  _sprite_mom                        sprite_mom
+     00055D12  ___func_sprite_n_tileset           sprite_n_tileset
+     00055D12  _sprite_n_tileset                  sprite_n_tileset
+     00055D34  ___func_sprite_n                   sprite_n
+     00055D34  _sprite_n_metasprite_0             sprite_n
+     00055D38  _sprite_n_metasprite_1             sprite_n
+     00055D40  _sprite_n_metasprite_2             sprite_n
+     00055D48  _sprite_n_metasprites              sprite_n
+     00055D4E  _sprite_n_animations               sprite_n
+     00055D5E  _sprite_n_animations_lookup        sprite_n
+     00055D60  _sprite_n                          sprite_n
+     00055D73  ___func_sprite_o_tileset           sprite_o_tileset
+     00055D73  _sprite_o_tileset                  sprite_o_tileset
+     00055D95  ___func_sprite_o                   sprite_o
+     00055D95  _sprite_o_metasprite_0             sprite_o
+     00055D99  _sprite_o_metasprite_1             sprite_o
+     00055DA1  _sprite_o_metasprite_2             sprite_o
+     00055DA9  _sprite_o_metasprites              sprite_o
+     00055DAF  _sprite_o_animations               sprite_o
+     00055DBF  _sprite_o_animations_lookup        sprite_o
+     00055DC1  _sprite_o                          sprite_o
+     00055DD4  ___func_sprite_p_tileset           sprite_p_tileset
+     00055DD4  _sprite_p_tileset                  sprite_p_tileset
+     00055DF6  ___func_sprite_p                   sprite_p
+     00055DF6  _sprite_p_metasprite_0             sprite_p
+     00055DFA  _sprite_p_metasprite_1             sprite_p
+     00055E02  _sprite_p_metasprite_2             sprite_p
+     00055E0A  _sprite_p_metasprites              sprite_p
+     00055E10  _sprite_p_animations               sprite_p
+     00055E20  _sprite_p_animations_lookup        sprite_p
+     00055E22  _sprite_p                          sprite_p
+     00055E35  ___func_sprite_player_handcursor   sprite_player_handcursor
+     00055E35  _sprite_player_handcursor_metasp   sprite_player_handcursor
+     00055E41  _sprite_player_handcursor_metasp   sprite_player_handcursor
+     00055E4D  _sprite_player_handcursor_metasp   sprite_player_handcursor
+     00055E51  _sprite_player_handcursor_animat   sprite_player_handcursor
+     00055E61  _sprite_player_handcursor_animat   sprite_player_handcursor
+     00055E63  _sprite_player_handcursor          sprite_player_handcursor
+     00055E76  ___func_sprite_q_tileset           sprite_q_tileset
+     00055E76  _sprite_q_tileset                  sprite_q_tileset
+     00055E98  ___func_sprite_q                   sprite_q
+     00055E98  _sprite_q_metasprite_0             sprite_q
+     00055E9C  _sprite_q_metasprite_1             sprite_q
+     00055EA4  _sprite_q_metasprite_2             sprite_q
+ASxxxx Linker V03.00 + NoICE + sdld,  page 54.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00055EAC  _sprite_q_metasprites              sprite_q
+     00055EB2  _sprite_q_animations               sprite_q
+     00055EC2  _sprite_q_animations_lookup        sprite_q
+     00055EC4  _sprite_q                          sprite_q
+     00055ED7  ___func_sprite_r_tileset           sprite_r_tileset
+     00055ED7  _sprite_r_tileset                  sprite_r_tileset
+     00055EF9  ___func_sprite_r                   sprite_r
+     00055EF9  _sprite_r_metasprite_0             sprite_r
+     00055EFD  _sprite_r_metasprite_1             sprite_r
+     00055F05  _sprite_r_metasprite_2             sprite_r
+     00055F0D  _sprite_r_metasprites              sprite_r
+     00055F13  _sprite_r_animations               sprite_r
+     00055F23  _sprite_r_animations_lookup        sprite_r
+     00055F25  _sprite_r                          sprite_r
+     00055F38  ___func_sprite_s_tileset           sprite_s_tileset
+     00055F38  _sprite_s_tileset                  sprite_s_tileset
+     00055F5A  ___func_sprite_s                   sprite_s
+     00055F5A  _sprite_s_metasprite_0             sprite_s
+     00055F5E  _sprite_s_metasprite_1             sprite_s
+     00055F66  _sprite_s_metasprite_2             sprite_s
+     00055F6E  _sprite_s_metasprites              sprite_s
+     00055F74  _sprite_s_animations               sprite_s
+     00055F84  _sprite_s_animations_lookup        sprite_s
+     00055F86  _sprite_s                          sprite_s
+     00055F99  ___func_sprite_smalla_tileset      sprite_smalla_tileset
+     00055F99  _sprite_smalla_tileset             sprite_smalla_tileset
+     00055FBB  ___func_sprite_smalla              sprite_smalla
+     00055FBB  _sprite_smalla_metasprite_0        sprite_smalla
+     00055FBF  _sprite_smalla_metasprite_1        sprite_smalla
+     00055FC7  _sprite_smalla_metasprite_2        sprite_smalla
+     00055FCF  _sprite_smalla_metasprites         sprite_smalla
+     00055FD5  _sprite_smalla_animations          sprite_smalla
+     00055FE5  _sprite_smalla_animations_lookup   sprite_smalla
+     00055FE7  _sprite_smalla                     sprite_smalla
+     00055FFA  ___func_sprite_smallb_tileset      sprite_smallb_tileset
+     00055FFA  _sprite_smallb_tileset             sprite_smallb_tileset
+     0005601C  ___func_sprite_smallb              sprite_smallb
+     0005601C  _sprite_smallb_metasprite_0        sprite_smallb
+     00056020  _sprite_smallb_metasprite_1        sprite_smallb
+     00056028  _sprite_smallb_metasprite_2        sprite_smallb
+     00056030  _sprite_smallb_metasprites         sprite_smallb
+     00056036  _sprite_smallb_animations          sprite_smallb
+     00056046  _sprite_smallb_animations_lookup   sprite_smallb
+     00056048  _sprite_smallb                     sprite_smallb
+     0005605B  ___func_sprite_smallc_tileset      sprite_smallc_tileset
+     0005605B  _sprite_smallc_tileset             sprite_smallc_tileset
+     0005607D  ___func_sprite_smallc              sprite_smallc
+     0005607D  _sprite_smallc_metasprite_0        sprite_smallc
+     00056081  _sprite_smallc_metasprite_1        sprite_smallc
+     00056089  _sprite_smallc_metasprite_2        sprite_smallc
+     00056091  _sprite_smallc_metasprites         sprite_smallc
+ASxxxx Linker V03.00 + NoICE + sdld,  page 55.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00056097  _sprite_smallc_animations          sprite_smallc
+     000560A7  _sprite_smallc_animations_lookup   sprite_smallc
+     000560A9  _sprite_smallc                     sprite_smallc
+     000560BC  ___func_sprite_smalld_tileset      sprite_smalld_tileset
+     000560BC  _sprite_smalld_tileset             sprite_smalld_tileset
+     000560DE  ___func_sprite_smalld              sprite_smalld
+     000560DE  _sprite_smalld_metasprite_0        sprite_smalld
+     000560E2  _sprite_smalld_metasprite_1        sprite_smalld
+     000560EA  _sprite_smalld_metasprite_2        sprite_smalld
+     000560F2  _sprite_smalld_metasprites         sprite_smalld
+     000560F8  _sprite_smalld_animations          sprite_smalld
+     00056108  _sprite_smalld_animations_lookup   sprite_smalld
+     0005610A  _sprite_smalld                     sprite_smalld
+     0005611D  ___func_sprite_smalle_tileset      sprite_smalle_tileset
+     0005611D  _sprite_smalle_tileset             sprite_smalle_tileset
+     0005613F  ___func_sprite_smalle              sprite_smalle
+     0005613F  _sprite_smalle_metasprite_0        sprite_smalle
+     00056143  _sprite_smalle_metasprite_1        sprite_smalle
+     0005614B  _sprite_smalle_metasprite_2        sprite_smalle
+     00056153  _sprite_smalle_metasprites         sprite_smalle
+     00056159  _sprite_smalle_animations          sprite_smalle
+     00056169  _sprite_smalle_animations_lookup   sprite_smalle
+     0005616B  _sprite_smalle                     sprite_smalle
+     0005617E  ___func_sprite_smallf_tileset      sprite_smallf_tileset
+     0005617E  _sprite_smallf_tileset             sprite_smallf_tileset
+     000561A0  ___func_sprite_smallf              sprite_smallf
+     000561A0  _sprite_smallf_metasprite_0        sprite_smallf
+     000561A4  _sprite_smallf_metasprite_1        sprite_smallf
+     000561AC  _sprite_smallf_metasprite_2        sprite_smallf
+     000561B4  _sprite_smallf_metasprites         sprite_smallf
+     000561BA  _sprite_smallf_animations          sprite_smallf
+     000561CA  _sprite_smallf_animations_lookup   sprite_smallf
+     000561CC  _sprite_smallf                     sprite_smallf
+     000561DF  ___func_sprite_smallg_tileset      sprite_smallg_tileset
+     000561DF  _sprite_smallg_tileset             sprite_smallg_tileset
+     00056201  ___func_sprite_smallg              sprite_smallg
+     00056201  _sprite_smallg_metasprite_0        sprite_smallg
+     00056205  _sprite_smallg_metasprite_1        sprite_smallg
+     0005620D  _sprite_smallg_metasprite_2        sprite_smallg
+     00056215  _sprite_smallg_metasprites         sprite_smallg
+     0005621B  _sprite_smallg_animations          sprite_smallg
+     0005622B  _sprite_smallg_animations_lookup   sprite_smallg
+     0005622D  _sprite_smallg                     sprite_smallg
+     00056240  ___func_sprite_smallh_tileset      sprite_smallh_tileset
+     00056240  _sprite_smallh_tileset             sprite_smallh_tileset
+     00056262  ___func_sprite_smallh              sprite_smallh
+     00056262  _sprite_smallh_metasprite_0        sprite_smallh
+     00056266  _sprite_smallh_metasprite_1        sprite_smallh
+     0005626E  _sprite_smallh_metasprite_2        sprite_smallh
+     00056276  _sprite_smallh_metasprites         sprite_smallh
+     0005627C  _sprite_smallh_animations          sprite_smallh
+ASxxxx Linker V03.00 + NoICE + sdld,  page 56.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0005628C  _sprite_smallh_animations_lookup   sprite_smallh
+     0005628E  _sprite_smallh                     sprite_smallh
+     000562A1  ___func_sprite_smalli_tileset      sprite_smalli_tileset
+     000562A1  _sprite_smalli_tileset             sprite_smalli_tileset
+     000562C3  ___func_sprite_smalli              sprite_smalli
+     000562C3  _sprite_smalli_metasprite_0        sprite_smalli
+     000562C7  _sprite_smalli_metasprite_1        sprite_smalli
+     000562CF  _sprite_smalli_metasprite_2        sprite_smalli
+     000562D7  _sprite_smalli_metasprites         sprite_smalli
+     000562DD  _sprite_smalli_animations          sprite_smalli
+     000562ED  _sprite_smalli_animations_lookup   sprite_smalli
+     000562EF  _sprite_smalli                     sprite_smalli
+     00056302  ___func_sprite_smallj_tileset      sprite_smallj_tileset
+     00056302  _sprite_smallj_tileset             sprite_smallj_tileset
+     00056324  ___func_sprite_smallj              sprite_smallj
+     00056324  _sprite_smallj_metasprite_0        sprite_smallj
+     00056328  _sprite_smallj_metasprite_1        sprite_smallj
+     00056330  _sprite_smallj_metasprite_2        sprite_smallj
+     00056338  _sprite_smallj_metasprites         sprite_smallj
+     0005633E  _sprite_smallj_animations          sprite_smallj
+     0005634E  _sprite_smallj_animations_lookup   sprite_smallj
+     00056350  _sprite_smallj                     sprite_smallj
+     00056363  ___func_sprite_smallk_tileset      sprite_smallk_tileset
+     00056363  _sprite_smallk_tileset             sprite_smallk_tileset
+     00056385  ___func_sprite_smallk              sprite_smallk
+     00056385  _sprite_smallk_metasprite_0        sprite_smallk
+     00056389  _sprite_smallk_metasprite_1        sprite_smallk
+     00056391  _sprite_smallk_metasprite_2        sprite_smallk
+     00056399  _sprite_smallk_metasprites         sprite_smallk
+     0005639F  _sprite_smallk_animations          sprite_smallk
+     000563AF  _sprite_smallk_animations_lookup   sprite_smallk
+     000563B1  _sprite_smallk                     sprite_smallk
+     000563C4  ___func_sprite_smalll_tileset      sprite_smalll_tileset
+     000563C4  _sprite_smalll_tileset             sprite_smalll_tileset
+     000563E6  ___func_sprite_smalll              sprite_smalll
+     000563E6  _sprite_smalll_metasprite_0        sprite_smalll
+     000563EA  _sprite_smalll_metasprite_1        sprite_smalll
+     000563F2  _sprite_smalll_metasprite_2        sprite_smalll
+     000563FA  _sprite_smalll_metasprites         sprite_smalll
+     00056400  _sprite_smalll_animations          sprite_smalll
+     00056410  _sprite_smalll_animations_lookup   sprite_smalll
+     00056412  _sprite_smalll                     sprite_smalll
+     00056425  ___func_sprite_smallm_tileset      sprite_smallm_tileset
+     00056425  _sprite_smallm_tileset             sprite_smallm_tileset
+     00056447  ___func_sprite_smallm              sprite_smallm
+     00056447  _sprite_smallm_metasprite_0        sprite_smallm
+     0005644B  _sprite_smallm_metasprite_1        sprite_smallm
+     00056453  _sprite_smallm_metasprite_2        sprite_smallm
+     0005645B  _sprite_smallm_metasprites         sprite_smallm
+     00056461  _sprite_smallm_animations          sprite_smallm
+     00056471  _sprite_smallm_animations_lookup   sprite_smallm
+ASxxxx Linker V03.00 + NoICE + sdld,  page 57.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00056473  _sprite_smallm                     sprite_smallm
+     00056486  ___func_sprite_smalln_tileset      sprite_smalln_tileset
+     00056486  _sprite_smalln_tileset             sprite_smalln_tileset
+     000564A8  ___func_sprite_smalln              sprite_smalln
+     000564A8  _sprite_smalln_metasprite_0        sprite_smalln
+     000564AC  _sprite_smalln_metasprite_1        sprite_smalln
+     000564B4  _sprite_smalln_metasprite_2        sprite_smalln
+     000564BC  _sprite_smalln_metasprites         sprite_smalln
+     000564C2  _sprite_smalln_animations          sprite_smalln
+     000564D2  _sprite_smalln_animations_lookup   sprite_smalln
+     000564D4  _sprite_smalln                     sprite_smalln
+     000564E7  ___func_sprite_smallo_tileset      sprite_smallo_tileset
+     000564E7  _sprite_smallo_tileset             sprite_smallo_tileset
+     00056509  ___func_sprite_smallo              sprite_smallo
+     00056509  _sprite_smallo_metasprite_0        sprite_smallo
+     0005650D  _sprite_smallo_metasprite_1        sprite_smallo
+     00056515  _sprite_smallo_metasprite_2        sprite_smallo
+     0005651D  _sprite_smallo_metasprites         sprite_smallo
+     00056523  _sprite_smallo_animations          sprite_smallo
+     00056533  _sprite_smallo_animations_lookup   sprite_smallo
+     00056535  _sprite_smallo                     sprite_smallo
+     00056548  ___func_sprite_smallp_tileset      sprite_smallp_tileset
+     00056548  _sprite_smallp_tileset             sprite_smallp_tileset
+     0005656A  ___func_sprite_smallp              sprite_smallp
+     0005656A  _sprite_smallp_metasprite_0        sprite_smallp
+     0005656E  _sprite_smallp_metasprite_1        sprite_smallp
+     00056576  _sprite_smallp_metasprite_2        sprite_smallp
+     0005657E  _sprite_smallp_metasprites         sprite_smallp
+     00056584  _sprite_smallp_animations          sprite_smallp
+     00056594  _sprite_smallp_animations_lookup   sprite_smallp
+     00056596  _sprite_smallp                     sprite_smallp
+     000565A9  ___func_sprite_smallq_tileset      sprite_smallq_tileset
+     000565A9  _sprite_smallq_tileset             sprite_smallq_tileset
+     000565CB  ___func_sprite_smallq              sprite_smallq
+     000565CB  _sprite_smallq_metasprite_0        sprite_smallq
+     000565CF  _sprite_smallq_metasprite_1        sprite_smallq
+     000565D7  _sprite_smallq_metasprite_2        sprite_smallq
+     000565DF  _sprite_smallq_metasprites         sprite_smallq
+     000565E5  _sprite_smallq_animations          sprite_smallq
+     000565F5  _sprite_smallq_animations_lookup   sprite_smallq
+     000565F7  _sprite_smallq                     sprite_smallq
+     0005660A  ___func_sprite_smallr_tileset      sprite_smallr_tileset
+     0005660A  _sprite_smallr_tileset             sprite_smallr_tileset
+     0005662C  ___func_sprite_smallr              sprite_smallr
+     0005662C  _sprite_smallr_metasprite_0        sprite_smallr
+     00056630  _sprite_smallr_metasprite_1        sprite_smallr
+     00056638  _sprite_smallr_metasprite_2        sprite_smallr
+     00056640  _sprite_smallr_metasprites         sprite_smallr
+     00056646  _sprite_smallr_animations          sprite_smallr
+     00056656  _sprite_smallr_animations_lookup   sprite_smallr
+     00056658  _sprite_smallr                     sprite_smallr
+ASxxxx Linker V03.00 + NoICE + sdld,  page 58.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0005666B  ___func_sprite_smalls_tileset      sprite_smalls_tileset
+     0005666B  _sprite_smalls_tileset             sprite_smalls_tileset
+     0005668D  ___func_sprite_smalls              sprite_smalls
+     0005668D  _sprite_smalls_metasprite_0        sprite_smalls
+     00056691  _sprite_smalls_metasprite_1        sprite_smalls
+     00056699  _sprite_smalls_metasprite_2        sprite_smalls
+     000566A1  _sprite_smalls_metasprites         sprite_smalls
+     000566A7  _sprite_smalls_animations          sprite_smalls
+     000566B7  _sprite_smalls_animations_lookup   sprite_smalls
+     000566B9  _sprite_smalls                     sprite_smalls
+     000566CC  ___func_sprite_smallt_tileset      sprite_smallt_tileset
+     000566CC  _sprite_smallt_tileset             sprite_smallt_tileset
+     000566EE  ___func_sprite_smallt              sprite_smallt
+     000566EE  _sprite_smallt_metasprite_0        sprite_smallt
+     000566F2  _sprite_smallt_metasprite_1        sprite_smallt
+     000566FA  _sprite_smallt_metasprite_2        sprite_smallt
+     00056702  _sprite_smallt_metasprites         sprite_smallt
+     00056708  _sprite_smallt_animations          sprite_smallt
+     00056718  _sprite_smallt_animations_lookup   sprite_smallt
+     0005671A  _sprite_smallt                     sprite_smallt
+     0005672D  ___func_sprite_smallu_tileset      sprite_smallu_tileset
+     0005672D  _sprite_smallu_tileset             sprite_smallu_tileset
+     0005674F  ___func_sprite_smallu              sprite_smallu
+     0005674F  _sprite_smallu_metasprite_0        sprite_smallu
+     00056753  _sprite_smallu_metasprite_1        sprite_smallu
+     0005675B  _sprite_smallu_metasprite_2        sprite_smallu
+     00056763  _sprite_smallu_metasprites         sprite_smallu
+     00056769  _sprite_smallu_animations          sprite_smallu
+     00056779  _sprite_smallu_animations_lookup   sprite_smallu
+     0005677B  _sprite_smallu                     sprite_smallu
+     0005678E  ___func_sprite_smallv_tileset      sprite_smallv_tileset
+     0005678E  _sprite_smallv_tileset             sprite_smallv_tileset
+     000567B0  ___func_sprite_smallv              sprite_smallv
+     000567B0  _sprite_smallv_metasprite_0        sprite_smallv
+     000567B4  _sprite_smallv_metasprite_1        sprite_smallv
+     000567BC  _sprite_smallv_metasprite_2        sprite_smallv
+     000567C4  _sprite_smallv_metasprites         sprite_smallv
+     000567CA  _sprite_smallv_animations          sprite_smallv
+     000567DA  _sprite_smallv_animations_lookup   sprite_smallv
+     000567DC  _sprite_smallv                     sprite_smallv
+     000567EF  ___func_sprite_smallw_tileset      sprite_smallw_tileset
+     000567EF  _sprite_smallw_tileset             sprite_smallw_tileset
+     00056811  ___func_sprite_smallw              sprite_smallw
+     00056811  _sprite_smallw_metasprite_0        sprite_smallw
+     00056815  _sprite_smallw_metasprite_1        sprite_smallw
+     0005681D  _sprite_smallw_metasprite_2        sprite_smallw
+     00056825  _sprite_smallw_metasprites         sprite_smallw
+     0005682B  _sprite_smallw_animations          sprite_smallw
+     0005683B  _sprite_smallw_animations_lookup   sprite_smallw
+     0005683D  _sprite_smallw                     sprite_smallw
+     00056850  ___func_sprite_smallx_tileset      sprite_smallx_tileset
+ASxxxx Linker V03.00 + NoICE + sdld,  page 59.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00056850  _sprite_smallx_tileset             sprite_smallx_tileset
+     00056872  ___func_sprite_smallx              sprite_smallx
+     00056872  _sprite_smallx_metasprite_0        sprite_smallx
+     00056876  _sprite_smallx_metasprite_1        sprite_smallx
+     0005687E  _sprite_smallx_metasprite_2        sprite_smallx
+     00056886  _sprite_smallx_metasprites         sprite_smallx
+     0005688C  _sprite_smallx_animations          sprite_smallx
+     0005689C  _sprite_smallx_animations_lookup   sprite_smallx
+     0005689E  _sprite_smallx                     sprite_smallx
+     000568B1  ___func_sprite_smally_tileset      sprite_smally_tileset
+     000568B1  _sprite_smally_tileset             sprite_smally_tileset
+     000568D3  ___func_sprite_smally              sprite_smally
+     000568D3  _sprite_smally_metasprite_0        sprite_smally
+     000568D7  _sprite_smally_metasprite_1        sprite_smally
+     000568DF  _sprite_smally_metasprite_2        sprite_smally
+     000568E7  _sprite_smally_metasprites         sprite_smally
+     000568ED  _sprite_smally_animations          sprite_smally
+     000568FD  _sprite_smally_animations_lookup   sprite_smally
+     000568FF  _sprite_smally                     sprite_smally
+     00056912  ___func_sprite_smallz_tileset      sprite_smallz_tileset
+     00056912  _sprite_smallz_tileset             sprite_smallz_tileset
+     00056934  ___func_sprite_smallz              sprite_smallz
+     00056934  _sprite_smallz_metasprite_0        sprite_smallz
+     00056938  _sprite_smallz_metasprite_1        sprite_smallz
+     00056940  _sprite_smallz_metasprite_2        sprite_smallz
+     00056948  _sprite_smallz_metasprites         sprite_smallz
+     0005694E  _sprite_smallz_animations          sprite_smallz
+     0005695E  _sprite_smallz_animations_lookup   sprite_smallz
+     00056960  _sprite_smallz                     sprite_smallz
+     00056973  ___func_sprite_t_tileset           sprite_t_tileset
+     00056973  _sprite_t_tileset                  sprite_t_tileset
+     00056995  ___func_sprite_t                   sprite_t
+     00056995  _sprite_t_metasprite_0             sprite_t
+     00056999  _sprite_t_metasprite_1             sprite_t
+     000569A1  _sprite_t_metasprite_2             sprite_t
+     000569A9  _sprite_t_metasprites              sprite_t
+     000569AF  _sprite_t_animations               sprite_t
+     000569BF  _sprite_t_animations_lookup        sprite_t
+     000569C1  _sprite_t                          sprite_t
+     000569D4  ___func_sprite_u_tileset           sprite_u_tileset
+     000569D4  _sprite_u_tileset                  sprite_u_tileset
+     000569F6  ___func_sprite_u                   sprite_u
+     000569F6  _sprite_u_metasprite_0             sprite_u
+     000569FA  _sprite_u_metasprite_1             sprite_u
+     00056A02  _sprite_u_metasprite_2             sprite_u
+     00056A0A  _sprite_u_metasprites              sprite_u
+     00056A10  _sprite_u_animations               sprite_u
+     00056A20  _sprite_u_animations_lookup        sprite_u
+     00056A22  _sprite_u                          sprite_u
+     00056A35  ___func_sprite_v_tileset           sprite_v_tileset
+     00056A35  _sprite_v_tileset                  sprite_v_tileset
+ASxxxx Linker V03.00 + NoICE + sdld,  page 60.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00056A57  ___func_sprite_v                   sprite_v
+     00056A57  _sprite_v_metasprite_0             sprite_v
+     00056A5B  _sprite_v_metasprite_1             sprite_v
+     00056A63  _sprite_v_metasprite_2             sprite_v
+     00056A6B  _sprite_v_metasprites              sprite_v
+     00056A71  _sprite_v_animations               sprite_v
+     00056A81  _sprite_v_animations_lookup        sprite_v
+     00056A83  _sprite_v                          sprite_v
+     00056A96  ___func_sprite_w_tileset           sprite_w_tileset
+     00056A96  _sprite_w_tileset                  sprite_w_tileset
+     00056AB8  ___func_sprite_w                   sprite_w
+     00056AB8  _sprite_w_metasprite_0             sprite_w
+     00056ABC  _sprite_w_metasprite_1             sprite_w
+     00056AC4  _sprite_w_metasprite_2             sprite_w
+     00056ACC  _sprite_w_metasprites              sprite_w
+     00056AD2  _sprite_w_animations               sprite_w
+     00056AE2  _sprite_w_animations_lookup        sprite_w
+     00056AE4  _sprite_w                          sprite_w
+     00056AF7  ___func_sprite_white_male_tilese   sprite_white_male_tileset
+     00056AF7  _sprite_white_male_tileset         sprite_white_male_tileset
+     00056BF9  ___func_sprite_white_male          sprite_white_male
+     00056BF9  _sprite_white_male_metasprite_0    sprite_white_male
+     00056C05  _sprite_white_male_metasprite_1    sprite_white_male
+     00056C11  _sprite_white_male_metasprite_2    sprite_white_male
+     00056C1D  _sprite_white_male_metasprite_3    sprite_white_male
+     00056C29  _sprite_white_male_metasprite_4    sprite_white_male
+     00056C35  _sprite_white_male_metasprite_5    sprite_white_male
+     00056C41  _sprite_white_male_metasprite_6    sprite_white_male
+     00056C4D  _sprite_white_male_metasprite_7    sprite_white_male
+     00056C59  _sprite_white_male_metasprites     sprite_white_male
+     00056C71  _sprite_white_male_animations      sprite_white_male
+     00056C81  _sprite_white_male_animations_lo   sprite_white_male
+     00056C83  _sprite_white_male                 sprite_white_male
+     00056C96  ___func_sprite_x_tileset           sprite_x_tileset
+     00056C96  _sprite_x_tileset                  sprite_x_tileset
+     00056CB8  ___func_sprite_x                   sprite_x
+     00056CB8  _sprite_x_metasprite_0             sprite_x
+     00056CBC  _sprite_x_metasprite_1             sprite_x
+     00056CC4  _sprite_x_metasprite_2             sprite_x
+     00056CCC  _sprite_x_metasprites              sprite_x
+     00056CD2  _sprite_x_animations               sprite_x
+     00056CE2  _sprite_x_animations_lookup        sprite_x
+     00056CE4  _sprite_x                          sprite_x
+     00056CF7  ___func_sprite_y_tileset           sprite_y_tileset
+     00056CF7  _sprite_y_tileset                  sprite_y_tileset
+     00056D19  ___func_sprite_y                   sprite_y
+     00056D19  _sprite_y_metasprite_0             sprite_y
+     00056D1D  _sprite_y_metasprite_1             sprite_y
+     00056D25  _sprite_y_metasprite_2             sprite_y
+     00056D2D  _sprite_y_metasprites              sprite_y
+     00056D33  _sprite_y_animations               sprite_y
+ASxxxx Linker V03.00 + NoICE + sdld,  page 61.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_5                             00054000    00002E41 =       11841. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00056D43  _sprite_y_animations_lookup        sprite_y
+     00056D45  _sprite_y                          sprite_y
+     00056D58  ___func_sprite_z_tileset           sprite_z_tileset
+     00056D58  _sprite_z_tileset                  sprite_z_tileset
+     00056D7A  ___func_sprite_z                   sprite_z
+     00056D7A  _sprite_z_metasprite_0             sprite_z
+     00056D7E  _sprite_z_metasprite_1             sprite_z
+     00056D86  _sprite_z_metasprite_2             sprite_z
+     00056D8E  _sprite_z_metasprites              sprite_z
+     00056D94  _sprite_z_animations               sprite_z
+     00056DA4  _sprite_z_animations_lookup        sprite_z
+     00056DA6  _sprite_z                          sprite_z
+     00056DB9  _spritesheet_none_metasprite       spritesheet_none
+     00056DBD  _spritesheet_none_metasprites      spritesheet_none
+     00056DBF  _spritesheet_none                  spritesheet_none
+     00056DD2  _trigger_0_interact                trigger_0_interact
+     00056DF8  _trigger_1_interact                trigger_1_interact
+     00056E1E  _trigger_2_interact                trigger_2_interact
+     00056E30  _logo_init                         logo
+     00056E40  _logo_update                       logo
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 62.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_4                             00044000    00003FFF =       16383. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00044000  _core_reset                        core
+     00044075  _process_VM                        core
+     0004431C  _core_run                          core
+     000443F5  ___HandleCrash_banked              
+     0004475C  _DMGFadeToWhiteStep                fade_manager
+     0004477F  _DMGFadeToBlackStep                fade_manager
+     000447A4  _ApplyPaletteChangeDMG             fade_manager
+     0004481B  _fade_speeds                       fade_manager
+     00044822  _fade_init                         fade_manager
+     0004483B  _fade_in                           fade_manager
+     0004485C  _fade_out                          fade_manager
+     00044880  _fade_update                       fade_manager
+     000448CA  _fade_applypalettechange           fade_manager
+     000448D4  _fade_setspeed                     fade_manager
+     000448E4  _fade_in_modal                     fade_manager
+     000448FE  _fade_out_modal                    fade_manager
+     00044918  _printer_send_receive              gbprinter
+     00044952  _printer_send_byte                 gbprinter
+     00044971  _printer_send_command              gbprinter
+     0004499C  _printer_print_tile                gbprinter
+     00044A36  _printer_wait                      gbprinter
+     00044A66  _gbprinter_detect                  gbprinter
+     00044A88  _gbprinter_print_overlay           gbprinter
+     00044CC6  _data_init                         load_save
+     00044D11  _save_points                       load_save
+     00044D69  _data_slot_address                 load_save
+     00044DCD  _data_save                         load_save
+     00044EB3  _data_load                         load_save
+     00044FC2  _data_clear                        load_save
+     00044FF3  _data_peek                         load_save
+     000450A1  _set_sgb_border                    sgb_border
+     000452D2  _trigger_reset                     trigger
+     000452E2  _trigger_interact                  trigger
+     00045322  _trigger_activate_at               trigger
+     0004536D  _trigger_at_intersection           trigger
+     00045482  _trigger_activate_at_intersectio   trigger
+     000455C4  _trigger_at_tile                   trigger
+     00045654  ___func_VM_CAMERA                  vm_camera
+     00045654  _vm_camera_move_to                 vm_camera
+     000457A7  _vm_camera_set_pos                 vm_camera
+     000457EE  _camera_shake_frames               vm_camera
+     000458E6  ___func_VM_MATH                    vm_math
+     000458E6  _vm_sin_scale                      vm_math
+     00045988  _vm_cos_scale                      vm_math
+     00045A2C  ___func_VM_MUSIC                   vm_music
+     00045A2C  _vm_music_play                     vm_music
+     00045A70  _vm_music_stop                     vm_music
+     00045A92  _vm_music_mute                     vm_music
+     00045AC8  _vm_music_routine                  vm_music
+     00045AEF  _vm_music_setpos                   vm_music
+ASxxxx Linker V03.00 + NoICE + sdld,  page 63.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_4                             00044000    00003FFF =       16383. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00045AF9  _vm_sound_mastervol                vm_music
+     00045AFF  _vm_sfx_play                       vm_music
+     00045B72  ___func_VM_PALETTE                 vm_palette
+     00045B72  _vm_load_palette                   vm_palette
+     00045CCB  ___func_VM_SIO                     vm_sio
+     00045CCB  _vm_sio_set_mode                   vm_sio
+     00045CDE  _vm_sio_exchange                   vm_sio
+     00046037  _itoa_fmt                          vm_ui_a
+     00046070  .utoa_fmt                          vm_ui_a
+     0004611A  _actor_0_interact                  actor_0_interact
+     00046287  _actor_1_interact                  actor_1_interact
+     00046430  ___func_bg_bedroom_tilemap         bg_bedroom_tilemap
+     00046430  _bg_bedroom_tilemap                bg_bedroom_tilemap
+     00046598  ___func_bg_keyboard_tilemap        bg_keyboard_tilemap
+     00046598  _bg_keyboard_tilemap               bg_keyboard_tilemap
+     00046700  ___func_bg_livingroom_tilemap      bg_livingroom_tilemap
+     00046700  _bg_livingroom_tilemap             bg_livingroom_tilemap
+     00046868  ___func_bg_livingroom_tileset      bg_livingroom_tileset
+     00046868  _bg_livingroom_tileset             bg_livingroom_tileset
+     00046C9A  ___func_bg_logo_tilemap            bg_logo_tilemap
+     00046C9A  _bg_logo_tilemap                   bg_logo_tilemap
+     00046E02  ___func_bg_logo_tileset            bg_logo_tileset
+     00046E02  _bg_logo_tileset                   bg_logo_tileset
+     000472F4  ___func_bg_titlescreen_tilemap     bg_titlescreen_tilemap
+     000472F4  _bg_titlescreen_tilemap            bg_titlescreen_tilemap
+     0004745C  ___func_scene_bedroom_collisions   scene_bedroom_collisions
+     0004745C  _scene_bedroom_collisions          scene_bedroom_collisions
+     000475C4  ___func_scene_keyboard_actors      scene_keyboard_actors
+     000475C4  _scene_keyboard_actors             scene_keyboard_actors
+     000476FC  ___func_scene_keyboard_collision   scene_keyboard_collisions
+     000476FC  _scene_keyboard_collisions         scene_keyboard_collisions
+     00047864  ___func_scene_living_room_collis   scene_living_room_collisions
+     00047864  _scene_living_room_collisions      scene_living_room_collisions
+     000479CC  ___func_scene_logo_collisions      scene_logo_collisions
+     000479CC  _scene_logo_collisions             scene_logo_collisions
+     00047B34  ___func_scene_title_collisions     scene_title_collisions
+     00047B34  _scene_title_collisions            scene_title_collisions
+     00047C9C  _pointnclick_init                  pointnclick
+     00047CD5  _pointnclick_update                pointnclick
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 64.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CRASH_HEADER0                      00000000    00000005 =           5. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 65.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CRASH_HEADER1                      00000000    00000004 =           4. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 66.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CRASH_SCRATCH2                     00000000    000001CB =         459. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 67.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_2                             00024000    00004000 =       16384. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00024000  _load_init                         data_manager
+     00024013  _spritesheet_none_far              data_manager
+     00024016  _load_bkg_tileset                  data_manager
+     000240EF  _load_background                   data_manager
+     000241AE  _load_sprite                       data_manager
+     0002420C  _load_bounds                       data_manager
+     0002422C  _do_load_palette                   data_manager
+     000242AC  _load_scene                        data_manager
+     00024B86  _load_player                       data_manager
+     00024BD2  _load_emote                        data_manager
+     00024BE6  _projectiles_init                  projectiles
+     00024C26  _projectile_launch                 projectiles
+     0002502F  ___func_VM_MAIN                    vm
+     0002502F  _vm_call                           vm
+     00025071  _vm_ret                            vm
+     000250D0  _vm_call_far                       vm
+     0002514D  _vm_ret_far                        vm
+     000251BC  _vm_push                           vm
+     000251E6  _vm_pop                            vm
+     00025221  _vm_loop                           vm
+     000252AE  _vm_jump                           vm
+     000252BA  _wait_frames                       vm
+     00025331  _vm_invoke                         vm
+     0002545D  _vm_join                           vm
+     000254B6  _vm_terminate                      vm
+     000254E3  _vm_if                             vm
+     00025627  _vm_if_const                       vm
+     0002573B  _vm_push_value                     vm
+     0002578D  _vm_push_value_ind                 vm
+     00025802  _vm_push_reference                 vm
+     00025859  _vm_reserve                        vm
+     00025886  _vm_set                            vm
+     000258E7  _vm_set_const                      vm
+     00025913  _vm_get_tlocal                     vm
+     000259A0  _vm_test_terminate                 vm
+     000259AB  _vm_idle                           vm
+     000259B7  _vm_get_uint8                      vm
+     000259EA  _vm_get_int8                       vm
+     00025A1E  _vm_get_int16                      vm
+     00025A60  _vm_set_uint8                      vm
+     00025A8C  _vm_set_int8                       vm
+     00025AB8  _vm_set_int16                      vm
+     00025AF7  _vm_set_const_int8                 vm
+     00025B00  _vm_set_const_int16                vm
+     00025B0C  _vm_init_rng                       vm
+     00025B38  _vm_rand                           vm
+     00025BBD  _vm_lock                           vm
+     00025BCC  _vm_unlock                         vm
+     00025BDF  _vm_raise                          vm
+     00025C21  _vm_set_indirect                   vm
+ASxxxx Linker V03.00 + NoICE + sdld,  page 68.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_2                             00024000    00004000 =       16384. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00025C9C  _vm_get_indirect                   vm
+     00025D17  _vm_poll_loaded                    vm
+     00025D46  _vm_memset                         vm
+     00025D8B  _vm_memcpy                         vm
+     00025E0B  _script_runner_init                vm
+     00025EC7  _script_execute                    vm
+     0002600C  _script_terminate                  vm
+     00026072  _script_detach_hthread             vm
+     000260AF  ___func_font_gbs_mono              font_gbs_mono
+     00026E5F  _font_gbs_mono                     font_gbs_mono
+     00026E67  ___func_sprite_player_handcursor   sprite_player_handcursor_til
+     00026E67  _sprite_player_handcursor_tilese   sprite_player_handcursor_til
+     00026EC9  _platform_init                     platform
+     0002707D  _platform_update                   platform
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 69.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_3                             00034000    00004000 =       16384. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00034000  _input_init                        input
+     00034026  _scroll_init                       scroll
+     00034050  _scroll_reset                      scroll
+     00034070  _scroll_update                     scroll
+     00034187  _scroll_viewport                   scroll
+     00034635  _scroll_repaint                    scroll
+     00034645  _scroll_render_rows                scroll
+     000346CD  _scroll_queue_row                  scroll
+     000346F2  _scroll_queue_col                  scroll
+     0003473E  ___func_VM_GAMEBOY                 vm_gameboy
+     0003473E  _vm_set_sprites_visible            vm_gameboy
+     00034755  _vm_input_wait                     vm_gameboy
+     0003477E  _vm_context_prepare                vm_gameboy
+     000347A9  _vm_input_attach                   vm_gameboy
+     000347BF  _vm_input_detach                   vm_gameboy
+     000347D3  _vm_input_get                      vm_gameboy
+     00034807  _vm_fade                           vm_gameboy
+     00034839  _vm_timer_prepare                  vm_gameboy
+     00034864  _vm_timer_set                      vm_gameboy
+     0003487F  _vm_timer_stop                     vm_gameboy
+     00034893  _vm_timer_reset                    vm_gameboy
+     000348AA  _vm_get_tile_xy                    vm_gameboy
+     00034956  _vm_replace_tile                   vm_gameboy
+     000349E5  _vm_poll                           vm_gameboy
+     00034AB7  _vm_set_sprite_mode                vm_gameboy
+     00034ACB  _vm_replace_tile_xy                vm_gameboy
+     00034BA9  _vm_rumble                         vm_gameboy
+     00034BC9  _vm_load_tiles                     vm_gameboy
+     00034BDE  _vm_load_tileset                   vm_gameboy
+     00034C71  ___func_VM_GBPRINTER               vm_gbprinter
+     00034C71  _vm_print_detect                   vm_gbprinter
+     00034CC3  _vm_print_overlay                  vm_gbprinter
+     00034D1B  ___func_VM_UI                      vm_ui
+     00034D1B  _vm_display_text                   vm_ui
+     00034D4E  _vm_switch_text_layer              vm_ui
+     00034D68  _vm_overlay_setpos                 vm_ui
+     00034D82  _vm_overlay_wait                   vm_ui
+     00034E13  _vm_overlay_move_to                vm_ui
+     00034E57  _vm_overlay_set_scroll             vm_ui
+     00034E94  _vm_overlay_clear                  vm_ui
+     00034F3C  _vm_overlay_show                   vm_ui
+     00034F8A  _vm_choice                         vm_ui
+     000350A5  _vm_set_font                       vm_ui
+     000350D6  _vm_overlay_scroll                 vm_ui
+     00035111  _vm_overlay_set_submap             vm_ui
+     0003514E  _vm_overlay_set_submap_ex          vm_ui
+     000351CC  _vm_overlay_set_map                vm_ui
+     000352D3  _vm_set_text_sound                 vm_ui
+     000352EC  ___func_bg_bedroom_tileset         bg_bedroom_tileset
+     000352EC  _bg_bedroom_tileset                bg_bedroom_tileset
+ASxxxx Linker V03.00 + NoICE + sdld,  page 70.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE_3                             00034000    00004000 =       16384. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0003582E  ___func_bg_keyboard_tileset        bg_keyboard_tileset
+     0003582E  _bg_keyboard_tileset               bg_keyboard_tileset
+     00035FD0  ___func_bg_titlescreen_tileset     bg_titlescreen_tileset
+     00035FD0  _bg_titlescreen_tileset            bg_titlescreen_tileset
+     00036AB2  _adventure_init                    adventure
+     00036AC7  _adventure_update                  adventure
+     000371DE  _shmup_init                        shmup
+     0003727A  _shmup_update                      shmup
+     000378F9  _topdown_init                      topdown
+     00037990  _topdown_update                    topdown
+ASxxxx Linker V03.00 + NoICE + sdld,  page 71.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER_SIO0                        00000000    00000004 =           4. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 72.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER_TIMER0                      00000000    00000004 =           4. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 73.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER_LCD0                        00000000    00000003 =           3. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 74.
+
+Files Linked                              [ module(s) ]
+
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/crt0.o
+                                          [ Runtime ]
+/tmp/_gbsbuild/obj/___sdcc_bcall_ehl.rel  [  ]
+/tmp/_gbsbuild/obj/absolute.rel           [ absolute ]
+/tmp/_gbsbuild/obj/actor.rel              [ actor ]
+/tmp/_gbsbuild/obj/bankdata.rel           [ bankdata ]
+/tmp/_gbsbuild/obj/bootstrap.rel          [  ]
+/tmp/_gbsbuild/obj/camera.rel             [ camera ]
+/tmp/_gbsbuild/obj/core.rel               [ core ]
+/tmp/_gbsbuild/obj/crash_handler.rel      [  ]
+/tmp/_gbsbuild/obj/data_manager.rel       [ data_manager ]
+/tmp/_gbsbuild/obj/events.rel             [ events ]
+/tmp/_gbsbuild/obj/fade_manager.rel       [ fade_manager ]
+/tmp/_gbsbuild/obj/flasher_s.rel          [  ]
+/tmp/_gbsbuild/obj/flasher.rel            [ flasher ]
+/tmp/_gbsbuild/obj/game_time.rel          [ game_time ]
+/tmp/_gbsbuild/obj/gbprinter.rel          [ gbprinter ]
+/tmp/_gbsbuild/obj/input.rel              [ input ]
+/tmp/_gbsbuild/obj/interrupt_sio.rel      [  ]
+/tmp/_gbsbuild/obj/interrupt_timer.rel    [  ]
+/tmp/_gbsbuild/obj/interrupts.rel         [ interrupts ]
+/tmp/_gbsbuild/obj/load_save.rel          [ load_save ]
+/tmp/_gbsbuild/obj/math.rel               [ math ]
+/tmp/_gbsbuild/obj/music_manager.rel      [ music_manager ]
+/tmp/_gbsbuild/obj/palette.rel            [ palette ]
+/tmp/_gbsbuild/obj/parallax.rel           [ parallax ]
+/tmp/_gbsbuild/obj/projectiles.rel        [ projectiles ]
+/tmp/_gbsbuild/obj/scroll_a.rel           [  ]
+/tmp/_gbsbuild/obj/scroll.rel             [ scroll ]
+/tmp/_gbsbuild/obj/set_tile_submap.rel    [  ]
+/tmp/_gbsbuild/obj/sfx_player.rel         [ sfx_player ]
+/tmp/_gbsbuild/obj/sgb_border.rel         [ sgb_border ]
+/tmp/_gbsbuild/obj/sio.rel                [ sio ]
+/tmp/_gbsbuild/obj/states_caller.rel      [  ]
+/tmp/_gbsbuild/obj/system.rel             [ system ]
+/tmp/_gbsbuild/obj/trigger.rel            [ trigger ]
+/tmp/_gbsbuild/obj/ui_a.rel               [  ]
+/tmp/_gbsbuild/obj/ui.rel                 [ ui ]
+/tmp/_gbsbuild/obj/vm_actor.rel           [ vm_actor ]
+/tmp/_gbsbuild/obj/vm_camera.rel          [ vm_camera ]
+/tmp/_gbsbuild/obj/vm_gameboy.rel         [ vm_gameboy ]
+/tmp/_gbsbuild/obj/vm_gbprinter.rel       [ vm_gbprinter ]
+/tmp/_gbsbuild/obj/vm_instructions.rel    [ vm_instructions ]
+/tmp/_gbsbuild/obj/vm_load_save.rel       [ vm_load_save ]
+/tmp/_gbsbuild/obj/vm_math.rel            [ vm_math ]
+/tmp/_gbsbuild/obj/vm_music.rel           [ vm_music ]
+/tmp/_gbsbuild/obj/vm_palette.rel         [ vm_palette ]
+/tmp/_gbsbuild/obj/vm_projectiles.rel     [ vm_projectiles ]
+/tmp/_gbsbuild/obj/vm_rtc.rel             [ vm_rtc ]
+/tmp/_gbsbuild/obj/vm_scene.rel           [ vm_scene ]
+/tmp/_gbsbuild/obj/vm_sgb.rel             [ vm_sgb ]
+/tmp/_gbsbuild/obj/vm_sio.rel             [ vm_sio ]
+/tmp/_gbsbuild/obj/vm_ui_a.rel            [ vm_ui_a ]
+/tmp/_gbsbuild/obj/vm_ui.rel              [ vm_ui ]
+/tmp/_gbsbuild/obj/vm.rel                 [ vm ]
+/tmp/_gbsbuild/obj/actor_0_interact.rel   [ actor_0_interact ]
+/tmp/_gbsbuild/obj/actor_1_interact.rel   [ actor_1_interact ]
+/tmp/_gbsbuild/obj/actor_1_update.rel     [ actor_1_update ]
+/tmp/_gbsbuild/obj/actor_2_interact.rel   [ actor_2_interact ]
+/tmp/_gbsbuild/obj/actor_3_interact.rel   [ actor_3_interact ]
+/tmp/_gbsbuild/obj/bg_bedroom_tilemap.rel
+                                          [ bg_bedroom_tilemap ]
+/tmp/_gbsbuild/obj/bg_bedroom_tileset.rel
+                                          [ bg_bedroom_tileset ]
+/tmp/_gbsbuild/obj/bg_bedroom.rel         [ bg_bedroom ]
+/tmp/_gbsbuild/obj/bg_keyboard_tilemap.rel
+                                          [ bg_keyboard_tilemap ]
+/tmp/_gbsbuild/obj/bg_keyboard_tileset.rel
+                                          [ bg_keyboard_tileset ]
+/tmp/_gbsbuild/obj/bg_keyboard.rel        [ bg_keyboard ]
+/tmp/_gbsbuild/obj/bg_livingroom_tilemap.rel
+                                          [ bg_livingroom_tilemap ]
+/tmp/_gbsbuild/obj/bg_livingroom_tileset.rel
+                                          [ bg_livingroom_tileset ]
+/tmp/_gbsbuild/obj/bg_livingroom.rel      [ bg_livingroom ]
+/tmp/_gbsbuild/obj/bg_logo_tilemap.rel    [ bg_logo_tilemap ]
+/tmp/_gbsbuild/obj/bg_logo_tileset.rel    [ bg_logo_tileset ]
+/tmp/_gbsbuild/obj/bg_logo.rel            [ bg_logo ]
+/tmp/_gbsbuild/obj/bg_titlescreen_tilemap.rel
+                                          [ bg_titlescreen_tilemap ]
+/tmp/_gbsbuild/obj/bg_titlescreen_tileset.rel
+                                          [ bg_titlescreen_tileset ]
+/tmp/_gbsbuild/obj/bg_titlescreen.rel     [ bg_titlescreen ]
+/tmp/_gbsbuild/obj/cursor_image.rel       [ cursor_image ]
+/tmp/_gbsbuild/obj/font_gbs_mono.rel      [ font_gbs_mono ]
+/tmp/_gbsbuild/obj/frame_image.rel        [ frame_image ]
+/tmp/_gbsbuild/obj/game_signature.rel     [ game_signature ]
+/tmp/_gbsbuild/obj/palette_0.rel          [ palette_0 ]
+/tmp/_gbsbuild/obj/palette_1.rel          [ palette_1 ]
+/tmp/_gbsbuild/obj/scene_bedroom_actors.rel
+                                          [ scene_bedroom_actors ]
+/tmp/_gbsbuild/obj/scene_bedroom_collisions.rel
+                                          [ scene_bedroom_collisions ]
+/tmp/_gbsbuild/obj/scene_bedroom_init.rel
+                                          [ scene_bedroom_init ]
+/tmp/_gbsbuild/obj/scene_bedroom_sprites.rel
+                                          [ scene_bedroom_sprites ]
+/tmp/_gbsbuild/obj/scene_bedroom_triggers.rel
+                                          [ scene_bedroom_triggers ]
+/tmp/_gbsbuild/obj/scene_bedroom.rel      [ scene_bedroom ]
+/tmp/_gbsbuild/obj/scene_keyboard_actors.rel
+                                          [ scene_keyboard_actors ]
+/tmp/_gbsbuild/obj/scene_keyboard_collisions.rel
+                                          [ scene_keyboard_collisions ]
+/tmp/_gbsbuild/obj/scene_keyboard_init.rel
+                                          [ scene_keyboard_init ]
+/tmp/_gbsbuild/obj/scene_keyboard_triggers.rel
+                                          [ scene_keyboard_triggers ]
+/tmp/_gbsbuild/obj/scene_keyboard.rel     [ scene_keyboard ]
+/tmp/_gbsbuild/obj/scene_living_room_actors.rel
+                                          [ scene_living_room_actors ]
+/tmp/_gbsbuild/obj/scene_living_room_collisions.rel
+                                          [ scene_living_room_collisions ]
+/tmp/_gbsbuild/obj/scene_living_room_init.rel
+                                          [ scene_living_room_init ]
+/tmp/_gbsbuild/obj/scene_living_room_sprites.rel
+                                          [ scene_living_room_sprites ]
+/tmp/_gbsbuild/obj/scene_living_room_triggers.rel
+                                          [ scene_living_room_triggers ]
+/tmp/_gbsbuild/obj/scene_living_room.rel  [ scene_living_room ]
+/tmp/_gbsbuild/obj/scene_logo_collisions.rel
+                                          [ scene_logo_collisions ]
+/tmp/_gbsbuild/obj/scene_logo_init.rel    [ scene_logo_init ]
+/tmp/_gbsbuild/obj/scene_logo.rel         [ scene_logo ]
+/tmp/_gbsbuild/obj/scene_title_collisions.rel
+                                          [ scene_title_collisions ]
+/tmp/_gbsbuild/obj/scene_title_init.rel   [ scene_title_init ]
+/tmp/_gbsbuild/obj/scene_title.rel        [ scene_title ]
+/tmp/_gbsbuild/obj/script_engine_init.rel
+                                          [  ]
+/tmp/_gbsbuild/obj/script_input_0.rel     [ script_input_0 ]
+/tmp/_gbsbuild/obj/script_input_1.rel     [ script_input_1 ]
+/tmp/_gbsbuild/obj/script_input_2.rel     [ script_input_2 ]
+/tmp/_gbsbuild/obj/script_row1alphabet.rel
+                                          [ script_row1alphabet ]
+/tmp/_gbsbuild/obj/script_row2alphabet.rel
+                                          [ script_row2alphabet ]
+/tmp/_gbsbuild/obj/script_row3alphabet.rel
+                                          [ script_row3alphabet ]
+/tmp/_gbsbuild/obj/script_row4alphabet.rel
+                                          [ script_row4alphabet ]
+/tmp/_gbsbuild/obj/script_timer_0.rel     [ script_timer_0 ]
+/tmp/_gbsbuild/obj/sprite_a_tileset.rel   [ sprite_a_tileset ]
+/tmp/_gbsbuild/obj/sprite_a.rel           [ sprite_a ]
+/tmp/_gbsbuild/obj/sprite_b_tileset.rel   [ sprite_b_tileset ]
+/tmp/_gbsbuild/obj/sprite_b.rel           [ sprite_b ]
+/tmp/_gbsbuild/obj/sprite_c_tileset.rel   [ sprite_c_tileset ]
+/tmp/_gbsbuild/obj/sprite_c.rel           [ sprite_c ]
+/tmp/_gbsbuild/obj/sprite_computer_tileset.rel
+                                          [ sprite_computer_tileset ]
+/tmp/_gbsbuild/obj/sprite_computer.rel    [ sprite_computer ]
+/tmp/_gbsbuild/obj/sprite_d_tileset.rel   [ sprite_d_tileset ]
+/tmp/_gbsbuild/obj/sprite_d.rel           [ sprite_d ]
+/tmp/_gbsbuild/obj/sprite_dad_tileset.rel
+                                          [ sprite_dad_tileset ]
+/tmp/_gbsbuild/obj/sprite_dad.rel         [ sprite_dad ]
+/tmp/_gbsbuild/obj/sprite_e_tileset.rel   [ sprite_e_tileset ]
+/tmp/_gbsbuild/obj/sprite_e.rel           [ sprite_e ]
+/tmp/_gbsbuild/obj/sprite_f_tileset.rel   [ sprite_f_tileset ]
+/tmp/_gbsbuild/obj/sprite_f.rel           [ sprite_f ]
+/tmp/_gbsbuild/obj/sprite_g_tileset.rel   [ sprite_g_tileset ]
+/tmp/_gbsbuild/obj/sprite_g.rel           [ sprite_g ]
+/tmp/_gbsbuild/obj/sprite_h_tileset.rel   [ sprite_h_tileset ]
+/tmp/_gbsbuild/obj/sprite_h.rel           [ sprite_h ]
+/tmp/_gbsbuild/obj/sprite_i_tileset.rel   [ sprite_i_tileset ]
+/tmp/_gbsbuild/obj/sprite_i.rel           [ sprite_i ]
+/tmp/_gbsbuild/obj/sprite_invisibleactor_tileset.rel
+                                          [ sprite_invisibleactor_tileset ]
+/tmp/_gbsbuild/obj/sprite_invisibleactor.rel
+                                          [ sprite_invisibleactor ]
+/tmp/_gbsbuild/obj/sprite_j_tileset.rel   [ sprite_j_tileset ]
+/tmp/_gbsbuild/obj/sprite_j.rel           [ sprite_j ]
+/tmp/_gbsbuild/obj/sprite_k_tileset.rel   [ sprite_k_tileset ]
+/tmp/_gbsbuild/obj/sprite_k.rel           [ sprite_k ]
+/tmp/_gbsbuild/obj/sprite_l_tileset.rel   [ sprite_l_tileset ]
+/tmp/_gbsbuild/obj/sprite_l.rel           [ sprite_l ]
+/tmp/_gbsbuild/obj/sprite_m_tileset.rel   [ sprite_m_tileset ]
+/tmp/_gbsbuild/obj/sprite_m.rel           [ sprite_m ]
+/tmp/_gbsbuild/obj/sprite_mom_tileset.rel
+                                          [ sprite_mom_tileset ]
+/tmp/_gbsbuild/obj/sprite_mom.rel         [ sprite_mom ]
+/tmp/_gbsbuild/obj/sprite_n_tileset.rel   [ sprite_n_tileset ]
+/tmp/_gbsbuild/obj/sprite_n.rel           [ sprite_n ]
+/tmp/_gbsbuild/obj/sprite_o_tileset.rel   [ sprite_o_tileset ]
+/tmp/_gbsbuild/obj/sprite_o.rel           [ sprite_o ]
+/tmp/_gbsbuild/obj/sprite_p_tileset.rel   [ sprite_p_tileset ]
+/tmp/_gbsbuild/obj/sprite_p.rel           [ sprite_p ]
+/tmp/_gbsbuild/obj/sprite_player_handcursor_tileset.rel
+                                          [ sprite_player_handcursor_tileset ]
+/tmp/_gbsbuild/obj/sprite_player_handcursor.rel
+                                          [ sprite_player_handcursor ]
+/tmp/_gbsbuild/obj/sprite_q_tileset.rel   [ sprite_q_tileset ]
+/tmp/_gbsbuild/obj/sprite_q.rel           [ sprite_q ]
+/tmp/_gbsbuild/obj/sprite_r_tileset.rel   [ sprite_r_tileset ]
+/tmp/_gbsbuild/obj/sprite_r.rel           [ sprite_r ]
+/tmp/_gbsbuild/obj/sprite_s_tileset.rel   [ sprite_s_tileset ]
+/tmp/_gbsbuild/obj/sprite_s.rel           [ sprite_s ]
+/tmp/_gbsbuild/obj/sprite_smalla_tileset.rel
+                                          [ sprite_smalla_tileset ]
+/tmp/_gbsbuild/obj/sprite_smalla.rel      [ sprite_smalla ]
+/tmp/_gbsbuild/obj/sprite_smallb_tileset.rel
+                                          [ sprite_smallb_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallb.rel      [ sprite_smallb ]
+/tmp/_gbsbuild/obj/sprite_smallc_tileset.rel
+                                          [ sprite_smallc_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallc.rel      [ sprite_smallc ]
+/tmp/_gbsbuild/obj/sprite_smalld_tileset.rel
+                                          [ sprite_smalld_tileset ]
+/tmp/_gbsbuild/obj/sprite_smalld.rel      [ sprite_smalld ]
+/tmp/_gbsbuild/obj/sprite_smalle_tileset.rel
+                                          [ sprite_smalle_tileset ]
+/tmp/_gbsbuild/obj/sprite_smalle.rel      [ sprite_smalle ]
+/tmp/_gbsbuild/obj/sprite_smallf_tileset.rel
+                                          [ sprite_smallf_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallf.rel      [ sprite_smallf ]
+/tmp/_gbsbuild/obj/sprite_smallg_tileset.rel
+                                          [ sprite_smallg_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallg.rel      [ sprite_smallg ]
+/tmp/_gbsbuild/obj/sprite_smallh_tileset.rel
+                                          [ sprite_smallh_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallh.rel      [ sprite_smallh ]
+/tmp/_gbsbuild/obj/sprite_smalli_tileset.rel
+                                          [ sprite_smalli_tileset ]
+/tmp/_gbsbuild/obj/sprite_smalli.rel      [ sprite_smalli ]
+/tmp/_gbsbuild/obj/sprite_smallj_tileset.rel
+                                          [ sprite_smallj_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallj.rel      [ sprite_smallj ]
+/tmp/_gbsbuild/obj/sprite_smallk_tileset.rel
+                                          [ sprite_smallk_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallk.rel      [ sprite_smallk ]
+/tmp/_gbsbuild/obj/sprite_smalll_tileset.rel
+                                          [ sprite_smalll_tileset ]
+/tmp/_gbsbuild/obj/sprite_smalll.rel      [ sprite_smalll ]
+/tmp/_gbsbuild/obj/sprite_smallm_tileset.rel
+                                          [ sprite_smallm_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallm.rel      [ sprite_smallm ]
+/tmp/_gbsbuild/obj/sprite_smalln_tileset.rel
+                                          [ sprite_smalln_tileset ]
+/tmp/_gbsbuild/obj/sprite_smalln.rel      [ sprite_smalln ]
+/tmp/_gbsbuild/obj/sprite_smallo_tileset.rel
+                                          [ sprite_smallo_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallo.rel      [ sprite_smallo ]
+/tmp/_gbsbuild/obj/sprite_smallp_tileset.rel
+                                          [ sprite_smallp_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallp.rel      [ sprite_smallp ]
+/tmp/_gbsbuild/obj/sprite_smallq_tileset.rel
+                                          [ sprite_smallq_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallq.rel      [ sprite_smallq ]
+/tmp/_gbsbuild/obj/sprite_smallr_tileset.rel
+                                          [ sprite_smallr_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallr.rel      [ sprite_smallr ]
+/tmp/_gbsbuild/obj/sprite_smalls_tileset.rel
+                                          [ sprite_smalls_tileset ]
+/tmp/_gbsbuild/obj/sprite_smalls.rel      [ sprite_smalls ]
+/tmp/_gbsbuild/obj/sprite_smallt_tileset.rel
+                                          [ sprite_smallt_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallt.rel      [ sprite_smallt ]
+/tmp/_gbsbuild/obj/sprite_smallu_tileset.rel
+                                          [ sprite_smallu_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallu.rel      [ sprite_smallu ]
+/tmp/_gbsbuild/obj/sprite_smallv_tileset.rel
+                                          [ sprite_smallv_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallv.rel      [ sprite_smallv ]
+/tmp/_gbsbuild/obj/sprite_smallw_tileset.rel
+                                          [ sprite_smallw_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallw.rel      [ sprite_smallw ]
+/tmp/_gbsbuild/obj/sprite_smallx_tileset.rel
+                                          [ sprite_smallx_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallx.rel      [ sprite_smallx ]
+/tmp/_gbsbuild/obj/sprite_smally_tileset.rel
+                                          [ sprite_smally_tileset ]
+/tmp/_gbsbuild/obj/sprite_smally.rel      [ sprite_smally ]
+/tmp/_gbsbuild/obj/sprite_smallz_tileset.rel
+                                          [ sprite_smallz_tileset ]
+/tmp/_gbsbuild/obj/sprite_smallz.rel      [ sprite_smallz ]
+/tmp/_gbsbuild/obj/sprite_t_tileset.rel   [ sprite_t_tileset ]
+/tmp/_gbsbuild/obj/sprite_t.rel           [ sprite_t ]
+/tmp/_gbsbuild/obj/sprite_u_tileset.rel   [ sprite_u_tileset ]
+/tmp/_gbsbuild/obj/sprite_u.rel           [ sprite_u ]
+/tmp/_gbsbuild/obj/sprite_v_tileset.rel   [ sprite_v_tileset ]
+/tmp/_gbsbuild/obj/sprite_v.rel           [ sprite_v ]
+/tmp/_gbsbuild/obj/sprite_w_tileset.rel   [ sprite_w_tileset ]
+/tmp/_gbsbuild/obj/sprite_w.rel           [ sprite_w ]
+/tmp/_gbsbuild/obj/sprite_white_male_tileset.rel
+                                          [ sprite_white_male_tileset ]
+/tmp/_gbsbuild/obj/sprite_white_male.rel  [ sprite_white_male ]
+/tmp/_gbsbuild/obj/sprite_x_tileset.rel   [ sprite_x_tileset ]
+/tmp/_gbsbuild/obj/sprite_x.rel           [ sprite_x ]
+/tmp/_gbsbuild/obj/sprite_y_tileset.rel   [ sprite_y_tileset ]
+/tmp/_gbsbuild/obj/sprite_y.rel           [ sprite_y ]
+/tmp/_gbsbuild/obj/sprite_z_tileset.rel   [ sprite_z_tileset ]
+/tmp/_gbsbuild/obj/sprite_z.rel           [ sprite_z ]
+/tmp/_gbsbuild/obj/spritesheet_none.rel   [ spritesheet_none ]
+/tmp/_gbsbuild/obj/trigger_0_interact.rel
+                                          [ trigger_0_interact ]
+/tmp/_gbsbuild/obj/trigger_1_interact.rel
+                                          [ trigger_1_interact ]
+/tmp/_gbsbuild/obj/trigger_2_interact.rel
+                                          [ trigger_2_interact ]
+/tmp/_gbsbuild/obj/main.rel               [ main ]
+/tmp/_gbsbuild/obj/adventure.rel          [ adventure ]
+/tmp/_gbsbuild/obj/logo.rel               [ logo ]
+/tmp/_gbsbuild/obj/platform.rel           [ platform ]
+/tmp/_gbsbuild/obj/pointnclick.rel        [ pointnclick ]
+/tmp/_gbsbuild/obj/shmup.rel              [ shmup ]
+/tmp/_gbsbuild/obj/states_ptrs.rel        [  ]
+/tmp/_gbsbuild/obj/topdown.rel            [ topdown ]
+
+
+Libraries Linked                          [ object file ]
+
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ fill_rect_wi.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+                                          [ rand.o ]
+lib/hUGEDriver.lib                        [ hUGEDriver.obj.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ sfr.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ get_data.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ get_tile.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ metasprites_hide_spr.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+                                          [ mul.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+                                          [ abs.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ set_wi_t.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ set_data.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+                                          [ reverse.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ far_ptr.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ sgb.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ lcd.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ fill_rect.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ cpy_data.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ fill_rect_bk.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ pad.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ metasprites.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+                                          [ __sdcc_call_hl.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+                                          [ _memcpy.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+                                          [ _memset.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ set_xy_t.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gbz80/gbz80.lib
+                                          [ div.o ]
+/tmp/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
+                                          [ set_bk_t.o ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 75.
+
+User Base Address Definitions
+
+_DATA=0xC0A0
+_CODE=0x0200
+ASxxxx Linker V03.00 + NoICE + sdld,  page 76.
+
+User Global Definitions
+
+.STACK=0xDF00
+_shadow_OAM=0xC000
+.refresh_OAM=0xFF80
+__start_save=4
+
+

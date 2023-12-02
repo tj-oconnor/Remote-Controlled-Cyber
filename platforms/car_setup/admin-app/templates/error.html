@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+    <link rel="stylesheet" href= {{ url_for('static', filename='style.css') }} />
+</head>
+<body>
+    <div class="content">
+        <h1>Error:</h1>
+	<hr>
+	<h4>{{error}}</h4>
+	<hr>
+        <button onclick="window.location.href='{{ url_for('home') }}'">Return to Containers</button>
+    </div>
+</body>
+</html>

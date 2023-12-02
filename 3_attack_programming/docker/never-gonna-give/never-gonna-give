@@ -1,0 +1,11 @@
+echo ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+echo ░█▀█░█▀▀░░░█▀▀░█▀█░█▀█░█▀▄░█░░░█▀▀░█▀▄░
+echo ░█▀▀░█░░░░░█▀▀░█░█░█▀█░█▀▄░█░░░█▀▀░█░█░
+echo ░▀░░░▀▀▀░░░▀▀▀░▀░▀░▀░▀░▀▀░░▀▀▀░▀▀▀░▀▀░░
+echo ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+echo ""
+echo "Here are some commands you can run:"
+echo "  moms-fridge"
+echo "  asciiquarium"
+echo "  starwars"
+echo ""

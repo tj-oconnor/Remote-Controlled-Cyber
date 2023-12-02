@@ -1,0 +1,16 @@
+[Unit]
+Description=DockerWeb
+
+[Service]
+User=pi
+TimeoutStartSec=0
+WorkingDirectory=/home/pi/admin-app/
+ExecStart=/home/pi/admin-app/service/web.sh
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=DockerWeb
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Administrator Login</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styles.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/login.css')}}">
+    </head>
+
+    <body>
+        <nav>
+            <a href="/"><img src="{{url_for('static', filename='icons/home.png')}}" width="20px" height="20px"></a>
+            <a href="/login">Admin Dashboard</a>
+            <a href="/flag-generator">Flag Generator</a>
+            <a href="/calculator">Calculcator</a>
+        </nav>
+        
+        <form action="/login/" method="get">
+            <h1>RCCTF Admin Page</h1>
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+
+              <button type="submit">Login</button>
+            </div>
+        </form>
+    </body>
+</html>

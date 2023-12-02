@@ -1,0 +1,36 @@
+<head>
+    <title>Python Calculator</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styles.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/calculator.css')}}">
+</head>
+
+<body style="background-image: url({{url_for('static', filename='icons/racing_background.jpeg')}}); background-size: cover;">
+    <nav>
+        <a href="/"><img src="{{url_for('static', filename='icons/home.png')}}" width="20px" height="20px"></a>
+        <a href="/login">Admin Dashboard</a>
+        <a href="/flag-generator">Flag Generator</a>
+        <a href="/calculator">Calculcator</a>
+    </nav>
+    
+    <!--Turns out, Python's eval() function is really useful for simple calculators!-->
+    <div id="calculator">
+        <input type="text">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>/</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>*</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>-</button>
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+        <button>+</button>
+    </div>
+</body>
+<script src="{{url_for('static', filename='js/calculator.js')}}"></script>

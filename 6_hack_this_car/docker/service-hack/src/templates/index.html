@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>RCCTF Web</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styles.css')}}">
+    </head>
+
+    <body>
+        <nav>
+            <a href="/"><img src="{{url_for('static', filename='icons/home.png')}}" width="20px" height="20px"></a>
+            <a href="/login">Admin Dashboard</a>
+            <a href="/flag-generator">Flag Generator</a>
+            <a href="/calculator">Calculcator</a>
+            <button type="button" class="collapsible"><img src="{{url_for('static', filename='icons/help.png')}}" height="26px" width="26px"></button>
+        </nav>
+        <div id="help-dialog">
+            <p>
+                <h2>Welcome to RCCTF</h2><br><br>
+                There are four flags hidden on this site.  Each flag will enable one direction of movement on the car.  All of the flags follow this format: flag{some_random_text}<br><br>
+                
+                These challenges unlock these directions:<br><br>
+                    hidden flag ...... forward movement<br>
+                    Admin Dashboard .. leftward movement<br>
+                    Flag Generator ... rightward movement<br>
+                    Calculator ....... backward movement<br><br><br>
+                
+                Use what you've learned to gain full control of the car!
+            </p>
+        </div>
+        
+        <div id="control-panel-container">
+            <div id="extra-buttons-container">
+                <button onmousedown="move('lights')">
+                    <img src="{{url_for('static', filename='icons/lights.png')}}">
+                </button>
+                <button onmousedown="move('spin')">
+                    <img src="{{url_for('static', filename='icons/spinning-arrows.png')}}">
+                </button>
+            </div>
+            <img src="{{url_for('static', filename='icons/hot_wheels.png')}}" id="checkered-flag">
+            <img src="{{url_for('static', filename='icons/car.png')}}" id="car">
+            <div id="arrow-panel">
+                <button id="button-forward" onmousedown="move('forward')" onmouseup="move('stop')">
+                    <img src="{{url_for('static', filename='icons/fancy_right.png')}}">
+                </button>
+                <button id="button-left" onmousedown="move('left')" onmouseup="move('stop')">
+                    <img src="{{url_for('static', filename='icons/fancy_right.png')}}">
+                </button>
+                <button id="button-right" onmousedown="move('right')" onmouseup="move('stop')">
+                    <img src="{{url_for('static', filename='icons/fancy_right.png')}}">
+                </button>
+                <button id="button-backward" onmousedown="move('backward')" onmouseup="move('stop')">
+                    <img src="{{url_for('static', filename='icons/fancy_right.png')}}">
+                </button>
+            </div>
+            <div class="flag-input" id="forward-movement">
+                <p>Forward movement: DISABLED</p>
+                <button class="flag-input-button right-justified" type="button">➤</button>
+                <input class="flag-input-text left-justified" type="text">
+            </div>
+            <div class="flag-input" id="left-movement">
+                <p>Left movement: DISABLED</p>
+                <button class="flag-input-button right-justified" type="button">➤</button>
+                <input class="flag-input-text left-justified" type="text">
+            </div>
+            <div class="flag-input" id="right-movement">
+                <p>Right movement: DISABLED</p>
+                <button class="flag-input-button right-justified" type="button">➤</button>
+                <input class="flag-input-text left-justified" type="text">
+            </div>
+            <div class="flag-input" id="backward-movement">
+                <p>Backward movement: DISABLED</p>
+                <button class="flag-input-button right-justified" type="button">➤</button>
+                <input class="flag-input-text left-justified" type="text">
+            </div>
+            <div id="event-log-pane"><p>Welcome to RCCTF<p></div>
+        </div>
+        <script src="{{url_for('static', filename='js/app.js')}}"></script>
+    </body>
+</html>

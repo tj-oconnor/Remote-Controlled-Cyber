@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>RCCTF Web</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styles.css')}}">
+    </head>
+
+    <body>
+        <nav>
+            <a href="/"><img src="{{url_for('static', filename='icons/home.png')}}" width="20px" height="20px"></a>
+            <a href="/login">Admin Dashboard</a>
+            <a href="/flag-generator">Flag Generator</a>
+            <a href="/calculator">Calculcator</a>
+        </nav>
+        
+        <button type="button" id="generator-button" onclick="getFlag()">Get flag</button>
+        <script>
+            function getFlag() {
+                fetch("/flag-generator", {method: "POST"});
+                alert("Flag generated!");
+            }
+        </script>
+    </body>
+</html>
