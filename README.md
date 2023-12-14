@@ -6,7 +6,7 @@ Please cite using:  Curtice Gough, Carl Mann, Cherrise Ficke, Maureen Namukasa, 
 
 # Lessons
 
-| Working Title | DockerHub Containers | Slides |
+| Title | DockerHub Containers | Slides |
 |---------------|----------|--------|
 | [*Ethics or Death*](1_ethics_or_death) |  [Gameboy ROM](1_ethics_or_death/rom) |  [Slides](1_ethics_or_death/slides) |
 | [*King of the Packet*](2_king_of_packet) | [DH: service-king](https://hub.docker.com/repository/docker/tjoconnor/service-king/) <br> [DH: web-king](https://hub.docker.com/repository/docker/tjoconnor/web-king/) |  [Slides](2_king_of_packet/slides) |
