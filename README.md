@@ -1,6 +1,8 @@
 # IoT-Curriculum
 
-Repository of Curriculum for IoT Curriculum to Engage and Educate a More Diverse Cybersecurity Workforce
+The following repository contains the containers, labs, and code used in our undergraduate vulnerability research course described in our [SIGCSE 2024 paper](paper/sigcse24gough.pdf)
+
+Please cite using:  Curtice Gough, Carl Mann, Cherrise Ficke, Maureen Namukasa, Meredith Carroll, TJ OConnor. *Remote Controlled Cyber: Toward Engaging and Educating a Diverse Cybersecurity Workforce*. Technical Symposium on Computer Science Education (SIGCSE TS 24), Portland, OR, March 2024. [bib](https://raw.githubusercontent.com/tj-oconnor/Publications/main/bib/sigcse24gough.bib) [pdf](https://raw.githubusercontent.com/tj-oconnor/Publications/main/pdf/sigcse24gough.pdf)
 
 # Lessons
 
